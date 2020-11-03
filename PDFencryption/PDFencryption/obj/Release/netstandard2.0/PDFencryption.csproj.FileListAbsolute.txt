@@ -1,0 +1,16 @@
+D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption\bin\Release\netstandard2.0\PDFencryption.deps.json
+D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption\bin\Release\netstandard2.0\PDFencryption.dll
+D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption\bin\Release\netstandard2.0\ref\PDFencryption.dll
+D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption\bin\Release\netstandard2.0\PDFencryption.pdb
+D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption\obj\Release\netstandard2.0\PDFencryption.csprojAssemblyReference.cache
+D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption\obj\Release\netstandard2.0\App.xaml.g.cs
+D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption\obj\Release\netstandard2.0\PDFencryption.AssemblyInfoInputs.cache
+D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption\obj\Release\netstandard2.0\PDFencryption.AssemblyInfo.cs
+D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption\obj\Release\netstandard2.0\PDFencryption.csproj.CoreCompileInputs.cache
+D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption\obj\Release\netstandard2.0\XamlC.stamp
+D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption\obj\Release\netstandard2.0\PDFencryption.dll
+D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption\obj\Release\netstandard2.0\ref\PDFencryption.dll
+D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption\obj\Release\netstandard2.0\PDFencryption.pdb
+D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption\obj\Release\netstandard2.0\Views\MainPage.xaml.g.cs
+D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption\obj\Release\netstandard2.0\Views\ScanScreenPage.xaml.g.cs
+D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption\obj\Release\netstandard2.0\Views\Results.xaml.g.cs

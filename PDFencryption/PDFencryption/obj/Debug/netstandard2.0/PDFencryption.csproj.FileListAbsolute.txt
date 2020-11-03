@@ -1,0 +1,14 @@
+D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption\bin\Debug\netstandard2.0\PDFencryption.deps.json
+D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption\bin\Debug\netstandard2.0\PDFencryption.dll
+D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption\bin\Debug\netstandard2.0\ref\PDFencryption.dll
+D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption\bin\Debug\netstandard2.0\PDFencryption.pdb
+D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption\obj\Debug\netstandard2.0\PDFencryption.csprojAssemblyReference.cache
+D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption\obj\Debug\netstandard2.0\PDFencryption.AssemblyInfoInputs.cache
+D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption\obj\Debug\netstandard2.0\PDFencryption.AssemblyInfo.cs
+D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption\obj\Debug\netstandard2.0\PDFencryption.csproj.CoreCompileInputs.cache
+D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption\obj\Debug\netstandard2.0\PDFencryption.dll
+D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption\obj\Debug\netstandard2.0\ref\PDFencryption.dll
+D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption\obj\Debug\netstandard2.0\PDFencryption.pdb
