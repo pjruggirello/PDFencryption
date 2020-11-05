@@ -6,8 +6,6 @@ D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\
 D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption\obj\Release\netstandard2.0\App.xaml.g.cs
 D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption\obj\Release\netstandard2.0\PDFencryption.AssemblyInfoInputs.cache
 D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption\obj\Release\netstandard2.0\PDFencryption.AssemblyInfo.cs
-D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption\obj\Release\netstandard2.0\PDFencryption.csproj.CoreCompileInputs.cache
-D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption\obj\Release\netstandard2.0\XamlC.stamp
 D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption\obj\Release\netstandard2.0\PDFencryption.dll
 D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption\obj\Release\netstandard2.0\ref\PDFencryption.dll
 D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption\obj\Release\netstandard2.0\PDFencryption.pdb

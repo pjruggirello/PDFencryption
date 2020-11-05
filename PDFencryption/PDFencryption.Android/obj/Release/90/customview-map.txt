@@ -17,10 +17,12 @@ android.support.v7.widget.RecyclerView;D:\Philip Ruggirello\Visual Studio Projec
 android.support.v7.widget.Toolbar;D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\lp\39\jl\res\layout\rootlayout.xml
 android.support.v7.widget.Toolbar;D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\lp\39\jl\res\layout\shellcontent.xml
 android.support.v7.widget.Toolbar;obj\Release\90\res\layout\toolbar.xml
+attr;D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\lp\39\jl\res\values\attrs.xml
 background;obj\Release\90\res\mipmap-anydpi-v26\icon.xml
 background;obj\Release\90\res\mipmap-anydpi-v26\icon_round.xml
 cache-path;D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 color;obj\Release\90\res\values\colors.xml
+declare-styleable;D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\lp\39\jl\res\values\attrs.xml
 external-cache-path;D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 external-path;D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 foreground;obj\Release\90\res\mipmap-anydpi-v26\icon.xml
@@ -29,6 +31,8 @@ FrameLayout;D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PD
 item;D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\lp\39\jl\res\values\styles.xml
 LinearLayout;D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\lp\39\jl\res\layout\bottomtablayout.xml
 paths;D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+resources;D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\lp\39\jl\res\values\attrs.xml
+resources;D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\lp\39\jl\res\values\strings.xml
 resources;D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\lp\39\jl\res\values\styles.xml
 resources;obj\Release\90\res\values\colors.xml
 resources;obj\Release\90\res\values\styles.xml
@@ -36,6 +40,7 @@ set;D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencrypt
 set;D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\lp\39\jl\res\anim\enterfromright.xml
 set;D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\lp\39\jl\res\anim\exittoleft.xml
 set;D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\lp\39\jl\res\anim\exittoright.xml
+string;D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\lp\39\jl\res\values\strings.xml
 style;D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\lp\39\jl\res\values\styles.xml
 style;obj\Release\90\res\values\styles.xml
 translate;D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\lp\39\jl\res\anim\enterfromleft.xml

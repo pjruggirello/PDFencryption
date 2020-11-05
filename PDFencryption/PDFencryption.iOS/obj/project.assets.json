@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     "Xamarin.iOS,Version=v1.0": {
+      "ScanbotSDK.Xamarin/3.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/ScanbotSDK.Xamarin.dll": {},
+          "lib/Xamarin.iOS10/ScanbotSDK.Xamarin.iOS.dll": {},
+          "lib/Xamarin.iOS10/ScanbotSDK.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/ScanbotSDK.Xamarin.dll": {},
+          "lib/Xamarin.iOS10/ScanbotSDK.Xamarin.iOS.dll": {},
+          "lib/Xamarin.iOS10/ScanbotSDK.iOS.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.5.3.2": {
         "type": "package",
         "frameworkAssemblies": [
@@ -140,6 +153,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "ScanbotSDK.Xamarin": "3.1.0",
           "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.Forms": "4.8.0.1560"
         },
@@ -152,6 +166,19 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win": {
+      "ScanbotSDK.Xamarin/3.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/ScanbotSDK.Xamarin.dll": {},
+          "lib/Xamarin.iOS10/ScanbotSDK.Xamarin.iOS.dll": {},
+          "lib/Xamarin.iOS10/ScanbotSDK.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/ScanbotSDK.Xamarin.dll": {},
+          "lib/Xamarin.iOS10/ScanbotSDK.Xamarin.iOS.dll": {},
+          "lib/Xamarin.iOS10/ScanbotSDK.iOS.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.5.3.2": {
         "type": "package",
         "frameworkAssemblies": [
@@ -290,6 +317,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "ScanbotSDK.Xamarin": "3.1.0",
           "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.Forms": "4.8.0.1560"
         },
@@ -302,6 +330,19 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x64": {
+      "ScanbotSDK.Xamarin/3.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/ScanbotSDK.Xamarin.dll": {},
+          "lib/Xamarin.iOS10/ScanbotSDK.Xamarin.iOS.dll": {},
+          "lib/Xamarin.iOS10/ScanbotSDK.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/ScanbotSDK.Xamarin.dll": {},
+          "lib/Xamarin.iOS10/ScanbotSDK.Xamarin.iOS.dll": {},
+          "lib/Xamarin.iOS10/ScanbotSDK.iOS.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.5.3.2": {
         "type": "package",
         "frameworkAssemblies": [
@@ -440,6 +481,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "ScanbotSDK.Xamarin": "3.1.0",
           "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.Forms": "4.8.0.1560"
         },
@@ -452,6 +494,19 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x86": {
+      "ScanbotSDK.Xamarin/3.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/ScanbotSDK.Xamarin.dll": {},
+          "lib/Xamarin.iOS10/ScanbotSDK.Xamarin.iOS.dll": {},
+          "lib/Xamarin.iOS10/ScanbotSDK.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/ScanbotSDK.Xamarin.dll": {},
+          "lib/Xamarin.iOS10/ScanbotSDK.Xamarin.iOS.dll": {},
+          "lib/Xamarin.iOS10/ScanbotSDK.iOS.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.5.3.2": {
         "type": "package",
         "frameworkAssemblies": [
@@ -590,6 +645,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "ScanbotSDK.Xamarin": "3.1.0",
           "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.Forms": "4.8.0.1560"
         },
@@ -603,6 +659,82 @@
     }
   },
   "libraries": {
+    "ScanbotSDK.Xamarin/3.1.0": {
+      "sha512": "ZfSs3iXYJrR06x3XwIWsdVnLy7gBvXZ+cBum77s9hcUbXpF8K0aKk9/g9oUrh9hr1B4RLhy4WJ3mwesHRdIYWw==",
+      "type": "package",
+      "path": "scanbotsdk.xamarin/3.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "Libraries.txt",
+        "images/icon.png",
+        "lib/MonoAndroid81/ImageProcessor.Assets.dll",
+        "lib/MonoAndroid81/Scanbot.Barcode.Core.v3.dll",
+        "lib/MonoAndroid81/Scanbot.Barcode.SDK.v3.dll",
+        "lib/MonoAndroid81/Scanbot.Barcode.UI.v3.dll",
+        "lib/MonoAndroid81/Scanbot.Cheque.Core.v3.dll",
+        "lib/MonoAndroid81/Scanbot.Cheque.SDK.v3.dll",
+        "lib/MonoAndroid81/Scanbot.DC.Core.v3.dll",
+        "lib/MonoAndroid81/Scanbot.DC.SDK.v3.dll",
+        "lib/MonoAndroid81/Scanbot.EHIC.Core.v3.dll",
+        "lib/MonoAndroid81/Scanbot.EHIC.SDK.v3.dll",
+        "lib/MonoAndroid81/Scanbot.EHIC.UI.v3.dll",
+        "lib/MonoAndroid81/Scanbot.GTR.Assets.dll",
+        "lib/MonoAndroid81/Scanbot.GTR.Core.dll",
+        "lib/MonoAndroid81/Scanbot.GTR.SDK.dll",
+        "lib/MonoAndroid81/Scanbot.GTR.UI.dll",
+        "lib/MonoAndroid81/Scanbot.IDCard.Assets.dll",
+        "lib/MonoAndroid81/Scanbot.IDCard.Core.dll",
+        "lib/MonoAndroid81/Scanbot.IDCard.SDK.dll",
+        "lib/MonoAndroid81/Scanbot.IDCard.UI.dll",
+        "lib/MonoAndroid81/Scanbot.ImageProcessing.Core.v3.dll",
+        "lib/MonoAndroid81/Scanbot.ImageProcessing.SDK.v3.dll",
+        "lib/MonoAndroid81/Scanbot.MRZ.Core.v3.dll",
+        "lib/MonoAndroid81/Scanbot.MRZ.SDK.v3.dll",
+        "lib/MonoAndroid81/Scanbot.MRZ.UI.v3.dll",
+        "lib/MonoAndroid81/Scanbot.MultipleObjects.Core.v3.dll",
+        "lib/MonoAndroid81/Scanbot.MultipleObjects.SDK.v3.dll",
+        "lib/MonoAndroid81/Scanbot.MultipleObjects.UI.v3.dll",
+        "lib/MonoAndroid81/Scanbot.NFC.Core.dll",
+        "lib/MonoAndroid81/Scanbot.NFC.SDK.dll",
+        "lib/MonoAndroid81/Scanbot.NFC.UI.dll",
+        "lib/MonoAndroid81/Scanbot.OCR.Core.v3.dll",
+        "lib/MonoAndroid81/Scanbot.OCR.SDK.v3.dll",
+        "lib/MonoAndroid81/Scanbot.Payform.Core.v3.dll",
+        "lib/MonoAndroid81/Scanbot.Payform.SDK.v3.dll",
+        "lib/MonoAndroid81/Scanbot.SAP.Core.v3.dll",
+        "lib/MonoAndroid81/Scanbot.SDK.Base.UI.v3.dll",
+        "lib/MonoAndroid81/Scanbot.SDK.Base.v3.dll",
+        "lib/MonoAndroid81/Scanbot.SDK.Bundle.v3.dll",
+        "lib/MonoAndroid81/Scanbot.SDK.Common.v3.dll",
+        "lib/MonoAndroid81/Scanbot.SDK.Core.v3.dll",
+        "lib/MonoAndroid81/Scanbot.SDK.Cwac.Camera.dll",
+        "lib/MonoAndroid81/Scanbot.SDK.DocumentDetection.dll",
+        "lib/MonoAndroid81/Scanbot.SDK.DocumentProcessing.dll",
+        "lib/MonoAndroid81/Scanbot.SDK.ML.Detector.v3.dll",
+        "lib/MonoAndroid81/Scanbot.SDK.Package.UI.dll",
+        "lib/MonoAndroid81/Scanbot.SDK.Package._2.dll",
+        "lib/MonoAndroid81/Scanbot.SDK.Package._3.dll",
+        "lib/MonoAndroid81/Scanbot.SDK.Package._4.dll",
+        "lib/MonoAndroid81/Scanbot.SDK.Persistence.v3.dll",
+        "lib/MonoAndroid81/Scanbot.TIFF.Core.v3.dll",
+        "lib/MonoAndroid81/Scanbot.Tesseract.Core.v3.dll",
+        "lib/MonoAndroid81/ScanbotSDK.Xamarin.Android.dll",
+        "lib/MonoAndroid81/ScanbotSDK.Xamarin.dll",
+        "lib/MonoAndroid81/ScanbotSDK.Xamarin.xml",
+        "lib/Xamarin.iOS10/ScanbotSDK.Xamarin.dll",
+        "lib/Xamarin.iOS10/ScanbotSDK.Xamarin.iOS.dll",
+        "lib/Xamarin.iOS10/ScanbotSDK.Xamarin.xml",
+        "lib/Xamarin.iOS10/ScanbotSDK.iOS.dll",
+        "lib/netstandard1.0/ScanbotSDK.Xamarin.dll",
+        "lib/netstandard1.0/ScanbotSDK.Xamarin.xml",
+        "lib/netstandard2.0/ScanbotSDK.Xamarin.dll",
+        "lib/netstandard2.0/ScanbotSDK.Xamarin.xml",
+        "scanbotsdk.xamarin.3.1.0.nupkg.sha512",
+        "scanbotsdk.xamarin.nuspec"
+      ]
+    },
     "Xamarin.Essentials/1.5.3.2": {
       "sha512": "BSLgDJUOPFRwTpQaftM+s4qb/MsTjrqXulEYDOcK6KF3i0Orf75zo3RwRfqnQ8WfpoEFxW/v0jgcPWCvOMgHxg==",
       "type": "package",
