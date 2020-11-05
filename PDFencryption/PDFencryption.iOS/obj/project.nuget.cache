@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "6WmQUN90ewrmttE4D6KIo4ibhvrGZNwUbYFVIkB2VTcLmOqdd6RkaEx1ELZoPwJGDbmt/f/Q03CFQQno7ZcIjA==",
+  "dgSpecHash": "hEyIAbJfTzWBwJfpu0d28dJvgP/IUjVJwZjomyp1TP1FsoMvEsCZsczP4/p4bGO9PiHThvWX9cT/7RAWoP0cmQ==",
   "success": true,
   "projectFilePath": "D:\\Philip Ruggirello\\Visual Studio Projects\\PDFencryption Project\\PDFencryption\\PDFencryption.iOS\\PDFencryption.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
-    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.6.0.1141\\xamarin.forms.4.6.0.1141.nupkg.sha512"
+    "C:\\Users\\Philip Ruggirello\\.nuget\\packages\\xamarin.forms\\4.8.0.1560\\xamarin.forms.4.8.0.1560.nupkg.sha512"
   ],
   "logs": []
 }

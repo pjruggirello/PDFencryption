@@ -44,7 +44,7 @@
 
 	/* 4: PDFencryption.Android.dll */
 	/* uncompressed_file_size */
-	.word	196608
+	.word	197120
 	/* loaded */
 	.byte	0
 	/* data */
@@ -53,7 +53,7 @@
 
 	/* 5: PDFencryption.dll */
 	/* uncompressed_file_size */
-	.word	12288
+	.word	11264
 	/* loaded */
 	.byte	0
 	/* data */
