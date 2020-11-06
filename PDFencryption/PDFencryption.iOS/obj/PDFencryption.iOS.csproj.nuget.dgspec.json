@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Philip Ruggirello\\Visual Studio Projects\\PDFencryption Project\\PDFencryption\\PDFencryption.iOS\\PDFencryption.iOS.csproj": {}
+    "C:\\Users\\jacks\\Source\\Repos\\PDFencryptionACT\\PDFencryption\\PDFencryption.iOS\\PDFencryption.iOS.csproj": {}
   },
   "projects": {
-    "D:\\Philip Ruggirello\\Visual Studio Projects\\PDFencryption Project\\PDFencryption\\PDFencryption.iOS\\PDFencryption.iOS.csproj": {
+    "C:\\Users\\jacks\\Source\\Repos\\PDFencryptionACT\\PDFencryption\\PDFencryption.iOS\\PDFencryption.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Philip Ruggirello\\Visual Studio Projects\\PDFencryption Project\\PDFencryption\\PDFencryption.iOS\\PDFencryption.iOS.csproj",
+        "projectUniqueName": "C:\\Users\\jacks\\Source\\Repos\\PDFencryptionACT\\PDFencryption\\PDFencryption.iOS\\PDFencryption.iOS.csproj",
         "projectName": "PDFencryption.iOS",
-        "projectPath": "D:\\Philip Ruggirello\\Visual Studio Projects\\PDFencryption Project\\PDFencryption\\PDFencryption.iOS\\PDFencryption.iOS.csproj",
-        "packagesPath": "C:\\Users\\Philip Ruggirello\\.nuget\\packages\\",
-        "outputPath": "D:\\Philip Ruggirello\\Visual Studio Projects\\PDFencryption Project\\PDFencryption\\PDFencryption.iOS\\obj\\",
+        "projectPath": "C:\\Users\\jacks\\Source\\Repos\\PDFencryptionACT\\PDFencryption\\PDFencryption.iOS\\PDFencryption.iOS.csproj",
+        "packagesPath": "C:\\Users\\jacks\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jacks\\Source\\Repos\\PDFencryptionACT\\PDFencryption\\PDFencryption.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Philip Ruggirello\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jacks\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "D:\\Philip Ruggirello\\Visual Studio Projects\\PDFencryption Project\\PDFencryption\\PDFencryption\\PDFencryption.csproj": {
-                "projectPath": "D:\\Philip Ruggirello\\Visual Studio Projects\\PDFencryption Project\\PDFencryption\\PDFencryption\\PDFencryption.csproj"
+              "C:\\Users\\jacks\\Source\\Repos\\PDFencryptionACT\\PDFencryption\\PDFencryption\\PDFencryption.csproj": {
+                "projectPath": "C:\\Users\\jacks\\Source\\Repos\\PDFencryptionACT\\PDFencryption\\PDFencryption\\PDFencryption.csproj"
               }
             }
           }
@@ -65,20 +65,20 @@
         }
       }
     },
-    "D:\\Philip Ruggirello\\Visual Studio Projects\\PDFencryption Project\\PDFencryption\\PDFencryption\\PDFencryption.csproj": {
+    "C:\\Users\\jacks\\Source\\Repos\\PDFencryptionACT\\PDFencryption\\PDFencryption\\PDFencryption.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Philip Ruggirello\\Visual Studio Projects\\PDFencryption Project\\PDFencryption\\PDFencryption\\PDFencryption.csproj",
+        "projectUniqueName": "C:\\Users\\jacks\\Source\\Repos\\PDFencryptionACT\\PDFencryption\\PDFencryption\\PDFencryption.csproj",
         "projectName": "PDFencryption",
-        "projectPath": "D:\\Philip Ruggirello\\Visual Studio Projects\\PDFencryption Project\\PDFencryption\\PDFencryption\\PDFencryption.csproj",
-        "packagesPath": "C:\\Users\\Philip Ruggirello\\.nuget\\packages\\",
-        "outputPath": "D:\\Philip Ruggirello\\Visual Studio Projects\\PDFencryption Project\\PDFencryption\\PDFencryption\\obj\\",
+        "projectPath": "C:\\Users\\jacks\\Source\\Repos\\PDFencryptionACT\\PDFencryption\\PDFencryption\\PDFencryption.csproj",
+        "packagesPath": "C:\\Users\\jacks\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jacks\\Source\\Repos\\PDFencryptionACT\\PDFencryption\\PDFencryption\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Philip Ruggirello\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jacks\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
