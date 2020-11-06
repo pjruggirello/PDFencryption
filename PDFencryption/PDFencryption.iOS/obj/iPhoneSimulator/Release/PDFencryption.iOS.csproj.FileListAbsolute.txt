@@ -1,9 +1,4 @@
 D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.iOS\bin\iPhoneSimulator\Release\PDFencryption.iOS.exe
-D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.iOS\bin\iPhoneSimulator\Release\ScanbotSDK.Xamarin.dll
-D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.iOS\bin\iPhoneSimulator\Release\ScanbotSDK.Xamarin.iOS.dll
-D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.iOS\bin\iPhoneSimulator\Release\ScanbotSDK.iOS.dll
-D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.iOS\bin\iPhoneSimulator\Release\ScanbotSDK.Xamarin.Forms.dll
-D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.iOS\bin\iPhoneSimulator\Release\ScanbotSDK.Xamarin.Forms.iOS.dll
 D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.iOS\bin\iPhoneSimulator\Release\Xamarin.Essentials.dll
 D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.iOS\bin\iPhoneSimulator\Release\Xamarin.Essentials.pdb
 D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.iOS\bin\iPhoneSimulator\Release\Xamarin.Forms.Core.dll
@@ -59,3 +54,8 @@ D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\
 D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.iOS\obj\iPhoneSimulator\Release\PDFencryption.iOS.csproj.CoreCompileInputs.cache
 D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.iOS\obj\iPhoneSimulator\Release\PDFencryption.iOS.csproj.CopyComplete
 D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.iOS\obj\iPhoneSimulator\Release\PDFencryption.iOS.exe
+D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.iOS\bin\iPhoneSimulator\Release\ZXing.Net.Mobile.Core.dll
+D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.iOS\bin\iPhoneSimulator\Release\ZXingNetMobile.dll
+D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.iOS\bin\iPhoneSimulator\Release\zxing.portable.dll
+D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.iOS\bin\iPhoneSimulator\Release\ZXing.Net.Mobile.Forms.dll
+D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.iOS\bin\iPhoneSimulator\Release\ZXing.Net.Mobile.Forms.iOS.dll

@@ -46,17 +46,28 @@ namespace PDFencryption.Views
 
             var scanPage = new ZXingScannerPage(options);
 
-
-            scanPage.OnScanResult += (result) => {
-                // Stop scanning
+            await Navigation.PushModalAsync(scanPage);
+            scanPage.OnScanResult += (result) =>
+            {
                 scanPage.IsScanning = false;
+                Device.BeginInvokeOnMainThread(async () =>
+               {
+                   await Navigation.PopModalAsync();
+                   await DisplayAlert("Scanned Barcode", result.Text, "OK");
+               });
+            };
+
+           
+           // scanPage.OnScanResult += (result) => {
+                // Stop scanning
+             //   scanPage.IsScanning = false;
 
                 // Pop the page and show the result
-                Device.BeginInvokeOnMainThread(async () => {
-                    await Navigation.PopAsync();
-                    await DisplayAlert("Scanned Barcode", result.Text, "OK");
-                });
-            };
+               // Device.BeginInvokeOnMainThread(async () => {
+                 //   await Navigation.PopAsync();
+                   // await DisplayAlert("Scanned Barcode", result.Text, "OK");
+                //});
+            //};
 
             // Navigate to our scanner page
             await Navigation.PushAsync(new ResultsPage());

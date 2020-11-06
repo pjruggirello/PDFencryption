@@ -37,26 +37,26 @@
 	.section	.rodata.map_aname.6,"aMS",%progbits,1
 	.type	.L.map_aname.6, %object
 .L.map_aname.6:
-	.asciz	"PDFencryption.Android"
-	.size	.L.map_aname.6, 22
+	.asciz	"Xamarin.AndroidX.Activity"
+	.size	.L.map_aname.6, 26
 
 	.section	.rodata.map_aname.7,"aMS",%progbits,1
 	.type	.L.map_aname.7, %object
 .L.map_aname.7:
-	.asciz	"Xamarin.AndroidX.Activity"
-	.size	.L.map_aname.7, 26
+	.asciz	"Xamarin.AndroidX.Core"
+	.size	.L.map_aname.7, 22
 
 	.section	.rodata.map_aname.8,"aMS",%progbits,1
 	.type	.L.map_aname.8, %object
 .L.map_aname.8:
-	.asciz	"Xamarin.AndroidX.Core"
-	.size	.L.map_aname.8, 22
+	.asciz	"Xamarin.AndroidX.Fragment"
+	.size	.L.map_aname.8, 26
 
 	.section	.rodata.map_aname.9,"aMS",%progbits,1
 	.type	.L.map_aname.9, %object
 .L.map_aname.9:
-	.asciz	"Xamarin.AndroidX.Fragment"
-	.size	.L.map_aname.9, 26
+	.asciz	"PDFencryption.Android"
+	.size	.L.map_aname.9, 22
 
 	.section	.rodata.map_aname.10,"aMS",%progbits,1
 	.type	.L.map_aname.10, %object
