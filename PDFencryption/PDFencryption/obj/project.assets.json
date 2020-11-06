@@ -26,27 +26,6 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
-      "ScanbotSDK.Xamarin/3.1.0": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/ScanbotSDK.Xamarin.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/ScanbotSDK.Xamarin.dll": {}
-        }
-      },
-      "ScanbotSDK.Xamarin.Forms/3.1.0": {
-        "type": "package",
-        "dependencies": {
-          "ScanbotSDK.Xamarin": "3.1.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/ScanbotSDK.Xamarin.Forms.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/ScanbotSDK.Xamarin.Forms.dll": {}
-        }
-      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -83,6 +62,32 @@
         "build": {
           "buildTransitive/Xamarin.Forms.props": {},
           "buildTransitive/Xamarin.Forms.targets": {}
+        }
+      },
+      "ZXing.Net.Mobile/2.4.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/ZXing.Net.Mobile.Core.dll": {},
+          "lib/netstandard1.0/ZXingNetMobile.dll": {},
+          "lib/netstandard1.0/zxing.portable.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/ZXing.Net.Mobile.Core.dll": {},
+          "lib/netstandard1.0/ZXingNetMobile.dll": {},
+          "lib/netstandard1.0/zxing.portable.dll": {}
+        }
+      },
+      "ZXing.Net.Mobile.Forms/2.4.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.5.0.122203",
+          "ZXing.Net.Mobile": "2.4.1"
+        },
+        "compile": {
+          "lib/netstandard1.0/ZXing.Net.Mobile.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/ZXing.Net.Mobile.Forms.dll": {}
         }
       }
     }
@@ -230,106 +235,6 @@
         "lib/netstandard1.0/_._",
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
-      ]
-    },
-    "ScanbotSDK.Xamarin/3.1.0": {
-      "sha512": "ZfSs3iXYJrR06x3XwIWsdVnLy7gBvXZ+cBum77s9hcUbXpF8K0aKk9/g9oUrh9hr1B4RLhy4WJ3mwesHRdIYWw==",
-      "type": "package",
-      "path": "scanbotsdk.xamarin/3.1.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.txt",
-        "Libraries.txt",
-        "images/icon.png",
-        "lib/MonoAndroid81/ImageProcessor.Assets.dll",
-        "lib/MonoAndroid81/Scanbot.Barcode.Core.v3.dll",
-        "lib/MonoAndroid81/Scanbot.Barcode.SDK.v3.dll",
-        "lib/MonoAndroid81/Scanbot.Barcode.UI.v3.dll",
-        "lib/MonoAndroid81/Scanbot.Cheque.Core.v3.dll",
-        "lib/MonoAndroid81/Scanbot.Cheque.SDK.v3.dll",
-        "lib/MonoAndroid81/Scanbot.DC.Core.v3.dll",
-        "lib/MonoAndroid81/Scanbot.DC.SDK.v3.dll",
-        "lib/MonoAndroid81/Scanbot.EHIC.Core.v3.dll",
-        "lib/MonoAndroid81/Scanbot.EHIC.SDK.v3.dll",
-        "lib/MonoAndroid81/Scanbot.EHIC.UI.v3.dll",
-        "lib/MonoAndroid81/Scanbot.GTR.Assets.dll",
-        "lib/MonoAndroid81/Scanbot.GTR.Core.dll",
-        "lib/MonoAndroid81/Scanbot.GTR.SDK.dll",
-        "lib/MonoAndroid81/Scanbot.GTR.UI.dll",
-        "lib/MonoAndroid81/Scanbot.IDCard.Assets.dll",
-        "lib/MonoAndroid81/Scanbot.IDCard.Core.dll",
-        "lib/MonoAndroid81/Scanbot.IDCard.SDK.dll",
-        "lib/MonoAndroid81/Scanbot.IDCard.UI.dll",
-        "lib/MonoAndroid81/Scanbot.ImageProcessing.Core.v3.dll",
-        "lib/MonoAndroid81/Scanbot.ImageProcessing.SDK.v3.dll",
-        "lib/MonoAndroid81/Scanbot.MRZ.Core.v3.dll",
-        "lib/MonoAndroid81/Scanbot.MRZ.SDK.v3.dll",
-        "lib/MonoAndroid81/Scanbot.MRZ.UI.v3.dll",
-        "lib/MonoAndroid81/Scanbot.MultipleObjects.Core.v3.dll",
-        "lib/MonoAndroid81/Scanbot.MultipleObjects.SDK.v3.dll",
-        "lib/MonoAndroid81/Scanbot.MultipleObjects.UI.v3.dll",
-        "lib/MonoAndroid81/Scanbot.NFC.Core.dll",
-        "lib/MonoAndroid81/Scanbot.NFC.SDK.dll",
-        "lib/MonoAndroid81/Scanbot.NFC.UI.dll",
-        "lib/MonoAndroid81/Scanbot.OCR.Core.v3.dll",
-        "lib/MonoAndroid81/Scanbot.OCR.SDK.v3.dll",
-        "lib/MonoAndroid81/Scanbot.Payform.Core.v3.dll",
-        "lib/MonoAndroid81/Scanbot.Payform.SDK.v3.dll",
-        "lib/MonoAndroid81/Scanbot.SAP.Core.v3.dll",
-        "lib/MonoAndroid81/Scanbot.SDK.Base.UI.v3.dll",
-        "lib/MonoAndroid81/Scanbot.SDK.Base.v3.dll",
-        "lib/MonoAndroid81/Scanbot.SDK.Bundle.v3.dll",
-        "lib/MonoAndroid81/Scanbot.SDK.Common.v3.dll",
-        "lib/MonoAndroid81/Scanbot.SDK.Core.v3.dll",
-        "lib/MonoAndroid81/Scanbot.SDK.Cwac.Camera.dll",
-        "lib/MonoAndroid81/Scanbot.SDK.DocumentDetection.dll",
-        "lib/MonoAndroid81/Scanbot.SDK.DocumentProcessing.dll",
-        "lib/MonoAndroid81/Scanbot.SDK.ML.Detector.v3.dll",
-        "lib/MonoAndroid81/Scanbot.SDK.Package.UI.dll",
-        "lib/MonoAndroid81/Scanbot.SDK.Package._2.dll",
-        "lib/MonoAndroid81/Scanbot.SDK.Package._3.dll",
-        "lib/MonoAndroid81/Scanbot.SDK.Package._4.dll",
-        "lib/MonoAndroid81/Scanbot.SDK.Persistence.v3.dll",
-        "lib/MonoAndroid81/Scanbot.TIFF.Core.v3.dll",
-        "lib/MonoAndroid81/Scanbot.Tesseract.Core.v3.dll",
-        "lib/MonoAndroid81/ScanbotSDK.Xamarin.Android.dll",
-        "lib/MonoAndroid81/ScanbotSDK.Xamarin.dll",
-        "lib/MonoAndroid81/ScanbotSDK.Xamarin.xml",
-        "lib/Xamarin.iOS10/ScanbotSDK.Xamarin.dll",
-        "lib/Xamarin.iOS10/ScanbotSDK.Xamarin.iOS.dll",
-        "lib/Xamarin.iOS10/ScanbotSDK.Xamarin.xml",
-        "lib/Xamarin.iOS10/ScanbotSDK.iOS.dll",
-        "lib/netstandard1.0/ScanbotSDK.Xamarin.dll",
-        "lib/netstandard1.0/ScanbotSDK.Xamarin.xml",
-        "lib/netstandard2.0/ScanbotSDK.Xamarin.dll",
-        "lib/netstandard2.0/ScanbotSDK.Xamarin.xml",
-        "scanbotsdk.xamarin.3.1.0.nupkg.sha512",
-        "scanbotsdk.xamarin.nuspec"
-      ]
-    },
-    "ScanbotSDK.Xamarin.Forms/3.1.0": {
-      "sha512": "XP+i2pRm+/9HwnWqbGz/kiCl6pVC2vc7HG7nscWG5TT9wfqparIgRW9V5W4rpu3ZT8BRgph0Xk9Rk8cAu2NI6g==",
-      "type": "package",
-      "path": "scanbotsdk.xamarin.forms/3.1.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.txt",
-        "Libraries.txt",
-        "images/icon.png",
-        "lib/MonoAndroid81/ScanbotSDK.Xamarin.Forms.Android.dll",
-        "lib/MonoAndroid81/ScanbotSDK.Xamarin.Forms.dll",
-        "lib/MonoAndroid81/ScanbotSDK.Xamarin.Forms.xml",
-        "lib/Xamarin.iOS10/ScanbotSDK.Xamarin.Forms.dll",
-        "lib/Xamarin.iOS10/ScanbotSDK.Xamarin.Forms.iOS.dll",
-        "lib/Xamarin.iOS10/ScanbotSDK.Xamarin.Forms.xml",
-        "lib/netstandard1.0/ScanbotSDK.Xamarin.Forms.dll",
-        "lib/netstandard1.0/ScanbotSDK.Xamarin.Forms.xml",
-        "lib/netstandard2.0/ScanbotSDK.Xamarin.Forms.dll",
-        "lib/netstandard2.0/ScanbotSDK.Xamarin.Forms.xml",
-        "scanbotsdk.xamarin.forms.3.1.0.nupkg.sha512",
-        "scanbotsdk.xamarin.forms.nuspec"
       ]
     },
     "System.Numerics.Vectors/4.5.0": {
@@ -742,15 +647,59 @@
         "xamarin.forms.4.8.0.1560.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
+    },
+    "ZXing.Net.Mobile/2.4.1": {
+      "sha512": "iCL2WcqOyUnC1iFFdzXijk0EXfoLMDqW88MyhoTZigSyhJZM2C5hKgSZVyfx9E35tgkde/IZwHkk8cVDnbQlYg==",
+      "type": "package",
+      "path": "zxing.net.mobile/2.4.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid71/ZXing.Net.Mobile.Core.dll",
+        "lib/MonoAndroid71/ZXingNetMobile.dll",
+        "lib/MonoAndroid71/zxing.portable.dll",
+        "lib/UAP10/ZXing.Net.Mobile.Core.dll",
+        "lib/UAP10/ZXingNetMobile.dll",
+        "lib/UAP10/ZXingNetMobile.pri",
+        "lib/UAP10/ZXingNetMobile/ZXingNetMobile.xr.xml",
+        "lib/UAP10/zxing.portable.dll",
+        "lib/Xamarin.iOS10/ZXing.Net.Mobile.Core.dll",
+        "lib/Xamarin.iOS10/ZXingNetMobile.dll",
+        "lib/Xamarin.iOS10/zxing.portable.dll",
+        "lib/netstandard1.0/ZXing.Net.Mobile.Core.dll",
+        "lib/netstandard1.0/ZXingNetMobile.dll",
+        "lib/netstandard1.0/zxing.portable.dll",
+        "zxing.net.mobile.2.4.1.nupkg.sha512",
+        "zxing.net.mobile.nuspec"
+      ]
+    },
+    "ZXing.Net.Mobile.Forms/2.4.1": {
+      "sha512": "7z+MfL8TbfE36s1GGvrnlkhLUOV5dgdn1gYhUb3GU2W6YXzpfF39k6EqkmFsyNm1O07evTaKFgh7UTOqcWub3g==",
+      "type": "package",
+      "path": "zxing.net.mobile.forms/2.4.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid71/ZXing.Net.Mobile.Forms.Android.dll",
+        "lib/MonoAndroid71/ZXing.Net.Mobile.Forms.dll",
+        "lib/UAP10/ZXing.Net.Mobile.Forms.WindowsUniversal.dll",
+        "lib/UAP10/ZXing.Net.Mobile.Forms.WindowsUniversal.pri",
+        "lib/UAP10/ZXing.Net.Mobile.Forms.dll",
+        "lib/Xamarin.iOS10/ZXing.Net.Mobile.Forms.dll",
+        "lib/Xamarin.iOS10/ZXing.Net.Mobile.Forms.iOS.dll",
+        "lib/netstandard1.0/ZXing.Net.Mobile.Forms.dll",
+        "zxing.net.mobile.forms.2.4.1.nupkg.sha512",
+        "zxing.net.mobile.forms.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "NETStandard.Library >= 2.0.3",
-      "ScanbotSDK.Xamarin >= 3.1.0",
-      "ScanbotSDK.Xamarin.Forms >= 3.1.0",
       "Xamarin.Essentials >= 1.5.3.2",
-      "Xamarin.Forms >= 4.8.0.1560"
+      "Xamarin.Forms >= 4.8.0.1560",
+      "ZXing.Net.Mobile >= 2.4.1",
+      "ZXing.Net.Mobile.Forms >= 2.4.1"
     ]
   },
   "packageFolders": {
@@ -801,14 +750,6 @@
             "version": "[2.0.3, )",
             "autoReferenced": true
           },
-          "ScanbotSDK.Xamarin": {
-            "target": "Package",
-            "version": "[3.1.0, )"
-          },
-          "ScanbotSDK.Xamarin.Forms": {
-            "target": "Package",
-            "version": "[3.1.0, )"
-          },
           "Xamarin.Essentials": {
             "target": "Package",
             "version": "[1.5.3.2, )"
@@ -816,6 +757,14 @@
           "Xamarin.Forms": {
             "target": "Package",
             "version": "[4.8.0.1560, )"
+          },
+          "ZXing.Net.Mobile": {
+            "target": "Package",
+            "version": "[2.4.1, )"
+          },
+          "ZXing.Net.Mobile.Forms": {
+            "target": "Package",
+            "version": "[2.4.1, )"
           }
         },
         "imports": [
