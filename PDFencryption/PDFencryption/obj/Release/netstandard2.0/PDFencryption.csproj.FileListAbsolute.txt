@@ -9,7 +9,6 @@ D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\
 D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption\obj\Release\netstandard2.0\PDFencryption.dll
 D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption\obj\Release\netstandard2.0\ref\PDFencryption.dll
 D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption\obj\Release\netstandard2.0\PDFencryption.pdb
-D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption\obj\Release\netstandard2.0\Views\MainPage.xaml.g.cs
 D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption\obj\Release\netstandard2.0\Views\ScanScreenPage.xaml.g.cs
 D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption\obj\Release\netstandard2.0\PDFencryption.csproj.CoreCompileInputs.cache
 D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption\obj\Release\netstandard2.0\Views\ResultsPage.xaml.g.cs

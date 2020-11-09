@@ -11,7 +11,7 @@ namespace PDFencryption
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new MainPage());
+            MainPage = new NavigationPage(new ScanScreenPage());
         }
 
         protected override void OnStart()

@@ -4,12 +4,19 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PDFencryption.Views.ScanScreenPage"
              xmlns:zxing="clr-namespace:ZXing.Net.Mobile.Forms;assembly=ZXing.Net.Mobile.Forms" 
-             xmlns:zxcm="clr-namespace:ZXing.Common;assembly=zxing.portable">
+             xmlns:zxcm="clr-namespace:ZXing.Common;assembly=zxing.portable"
+             BackgroundColor="Black">
+    
     <ContentPage.Content>
-        <StackLayout VerticalOptions="CenterAndExpand">
+        <Grid>
+            <Image Grid.Row="0" 
+                   Source="LabyrinthEncryptionLogo.png"
+                   VerticalOptions="Start"
+                   WidthRequest="400"
+                   HeightRequest="300"/>
             
-            
-            <zxing:ZXingBarcodeImageView x:Name="BarcodeImageView" 
+            <zxing:ZXingBarcodeImageView Grid.Row="1"
+                                         x:Name="BarcodeImageView" 
                                          BarcodeFormat="QR_CODE" 
                                          IsVisible="false" 
                                          BarcodeValue="Foo">
@@ -18,17 +25,17 @@
                                           Height="300" />
                 </zxing:ZXingBarcodeImageView.BarcodeOptions>
             </zxing:ZXingBarcodeImageView>
+
+            <Button Grid.Row="1"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                WidthRequest="300"
+                x:Name="Btn_Scan" 
+                Text="Scan Boarding Pass" 
+                Clicked="Scan_Barcode" 
+                TextColor="Black" 
+                BackgroundColor="#ffde59"/>
             
-            
-            
-            
-            <Button Text="Scan Barcode" 
-                    WidthRequest="200" 
-                    HorizontalOptions="Center" 
-                    VerticalOptions="Center" 
-                    Clicked="Scan_Barcode"/>
-            
-            
-        </StackLayout>
+        </Grid>
     </ContentPage.Content>
 </ContentPage>

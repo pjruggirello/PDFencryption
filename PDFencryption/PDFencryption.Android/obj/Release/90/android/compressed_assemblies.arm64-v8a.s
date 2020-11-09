@@ -62,7 +62,7 @@
 
 	/* 6: PDFencryption.dll */
 	/* uncompressed_file_size */
-	.word	13824
+	.word	12800
 	/* loaded */
 	.byte	0
 	/* data */

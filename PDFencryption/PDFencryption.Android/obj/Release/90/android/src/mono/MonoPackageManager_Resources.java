@@ -75,10 +75,8 @@ public class MonoPackageManager_Resources {
 		"Xamarin.AndroidX.VersionedParcelable.dll",
 		"Xamarin.AndroidX.ViewPager.dll",
 		"Xamarin.Google.Android.Material.dll",
-		"PDFencryption.Android.dll",
 		"FastAndroidCamera.dll",
 		"FormsViewGroup.dll",
-		"PDFencryption.dll",
 		"Xamarin.AndroidX.Activity.dll",
 		"Xamarin.AndroidX.Lifecycle.ViewModelSavedState.dll",
 		"Xamarin.AndroidX.SavedState.dll",
@@ -93,6 +91,8 @@ public class MonoPackageManager_Resources {
 		"ZXing.Net.Mobile.Forms.dll",
 		"zxing.portable.dll",
 		"ZXingNetMobile.dll",
+		"PDFencryption.Android.dll",
+		"PDFencryption.dll",
 	};
 	public static String[] Dependencies = new String[]{
 	};
