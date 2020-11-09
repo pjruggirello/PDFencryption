@@ -70,7 +70,7 @@ namespace PDFencryption.Views
             //};
 
             // Navigate to our scanner page
-            //await Navigation.PushAsync(new ResultsPage());
+            await Navigation.PushAsync(new ResultsPage());
         }
     }
 }

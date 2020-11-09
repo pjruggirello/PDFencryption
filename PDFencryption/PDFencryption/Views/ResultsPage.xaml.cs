@@ -16,5 +16,9 @@ namespace PDFencryption.Views
         {
             InitializeComponent();
         }
+        async void Scan_Again_Clicked(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new ScanScreenPage());
+        }
     }
 }

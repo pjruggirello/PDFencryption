@@ -82,7 +82,7 @@
 
 	/* 6: PDFencryption.dll */
 	/* uncompressed_file_size */
-	.long	12800
+	.long	13824
 	/* loaded */
 	.byte	0
 	/* data */
