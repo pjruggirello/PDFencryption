@@ -133,4 +133,7 @@
       <Name>PDFencryption</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\LabyrinthEncryptionLogo.png" />
+  </ItemGroup>
 </Project>
