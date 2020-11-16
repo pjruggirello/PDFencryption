@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "JG8FaLbrs+K0IANtpsWvlw8vuvKWaIc9lv8paJ/eQl6kIAhR8QPTFDmYp2oNIw3gUrGW60cdsFmbrvplhoVtHg==",
+  "dgSpecHash": "35MvLjDcrQJF7oImcHwQlTH6vgiyWQVsKEnLl82BsMYOBiHaRUtQFPR2Scop5oSiNqeQaz3jCl6jbbi1dDqEVA==",
   "success": true,
   "projectFilePath": "C:\\Users\\jacks\\Source\\Repos\\PDFencryptionACT\\PDFencryption\\PDFencryption.Android\\PDFencryption.Android.csproj",
   "expectedPackageFiles": [
@@ -85,12 +85,33 @@
     "C:\\Users\\jacks\\.nuget\\packages\\xamarin.androidx.vectordrawable.animated\\1.1.0.1\\xamarin.androidx.vectordrawable.animated.1.1.0.1.nupkg.sha512",
     "C:\\Users\\jacks\\.nuget\\packages\\xamarin.androidx.versionedparcelable\\1.1.1.5\\xamarin.androidx.versionedparcelable.1.1.1.5.nupkg.sha512",
     "C:\\Users\\jacks\\.nuget\\packages\\xamarin.androidx.viewpager\\1.0.0.5\\xamarin.androidx.viewpager.1.0.0.5.nupkg.sha512",
+    "C:\\Users\\jacks\\.nuget\\packages\\xamarin.build.download\\0.10.0\\xamarin.build.download.0.10.0.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Users\\jacks\\.nuget\\packages\\xamarin.firebase.auth.interop\\119.0.0\\xamarin.firebase.auth.interop.119.0.0.nupkg.sha512",
+    "C:\\Users\\jacks\\.nuget\\packages\\xamarin.firebase.common\\119.3.0\\xamarin.firebase.common.119.3.0.nupkg.sha512",
+    "C:\\Users\\jacks\\.nuget\\packages\\xamarin.firebase.components\\116.0.0\\xamarin.firebase.components.116.0.0.nupkg.sha512",
+    "C:\\Users\\jacks\\.nuget\\packages\\xamarin.firebase.database\\119.3.0\\xamarin.firebase.database.119.3.0.nupkg.sha512",
+    "C:\\Users\\jacks\\.nuget\\packages\\xamarin.firebase.database.collection\\117.0.1\\xamarin.firebase.database.collection.117.0.1.nupkg.sha512",
     "C:\\Users\\jacks\\.nuget\\packages\\xamarin.forms\\4.8.0.1560\\xamarin.forms.4.8.0.1560.nupkg.sha512",
     "C:\\Users\\jacks\\.nuget\\packages\\xamarin.google.android.material\\1.0.0.1\\xamarin.google.android.material.1.0.0.1.nupkg.sha512",
+    "C:\\Users\\jacks\\.nuget\\packages\\xamarin.google.autovalue.annotations\\1.6.5\\xamarin.google.autovalue.annotations.1.6.5.nupkg.sha512",
     "C:\\Users\\jacks\\.nuget\\packages\\xamarin.google.guava.listenablefuture\\1.0.0.2\\xamarin.google.guava.listenablefuture.1.0.0.2.nupkg.sha512",
+    "C:\\Users\\jacks\\.nuget\\packages\\xamarin.googleplayservices.base\\117.2.1\\xamarin.googleplayservices.base.117.2.1.nupkg.sha512",
+    "C:\\Users\\jacks\\.nuget\\packages\\xamarin.googleplayservices.basement\\117.2.1\\xamarin.googleplayservices.basement.117.2.1.nupkg.sha512",
+    "C:\\Users\\jacks\\.nuget\\packages\\xamarin.googleplayservices.tasks\\117.0.2\\xamarin.googleplayservices.tasks.117.0.2.nupkg.sha512",
     "C:\\Users\\jacks\\.nuget\\packages\\zxing.net.mobile\\2.4.1\\zxing.net.mobile.2.4.1.nupkg.sha512",
     "C:\\Users\\jacks\\.nuget\\packages\\zxing.net.mobile.forms\\2.4.1\\zxing.net.mobile.forms.2.4.1.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Xamarin.Forms from 4.8.0.1687 to 4.8.0.1560. Reference the package directly from the project to select a different version. \r\n PDFencryption.Android -> PDFencryption -> Xamarin.Forms (>= 4.8.0.1687) \r\n PDFencryption.Android -> Xamarin.Forms (>= 4.8.0.1560)",
+      "libraryId": "Xamarin.Forms",
+      "targetGraphs": [
+        "MonoAndroid,Version=v9.0"
+      ]
+    }
+  ]
 }

@@ -179,7 +179,7 @@
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0",
           "Xamarin.Essentials": "1.5.3.2",
-          "Xamarin.Forms": "4.8.0.1560",
+          "Xamarin.Forms": "4.8.0.1687",
           "ZXing.Net.Mobile": "2.4.1",
           "ZXing.Net.Mobile.Forms": "2.4.1"
         },
@@ -369,7 +369,7 @@
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0",
           "Xamarin.Essentials": "1.5.3.2",
-          "Xamarin.Forms": "4.8.0.1560",
+          "Xamarin.Forms": "4.8.0.1687",
           "ZXing.Net.Mobile": "2.4.1",
           "ZXing.Net.Mobile.Forms": "2.4.1"
         },
@@ -559,7 +559,7 @@
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0",
           "Xamarin.Essentials": "1.5.3.2",
-          "Xamarin.Forms": "4.8.0.1560",
+          "Xamarin.Forms": "4.8.0.1687",
           "ZXing.Net.Mobile": "2.4.1",
           "ZXing.Net.Mobile.Forms": "2.4.1"
         },
@@ -749,7 +749,7 @@
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0",
           "Xamarin.Essentials": "1.5.3.2",
-          "Xamarin.Forms": "4.8.0.1560",
+          "Xamarin.Forms": "4.8.0.1687",
           "ZXing.Net.Mobile": "2.4.1",
           "ZXing.Net.Mobile.Forms": "2.4.1"
         },
@@ -1300,5 +1300,20 @@
         "#import": []
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Xamarin.Forms from 4.8.0.1687 to 4.8.0.1560. Reference the package directly from the project to select a different version. \r\n PDFencryption.iOS -> PDFencryption -> Xamarin.Forms (>= 4.8.0.1687) \r\n PDFencryption.iOS -> Xamarin.Forms (>= 4.8.0.1560)",
+      "libraryId": "Xamarin.Forms",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0",
+        "Xamarin.iOS,Version=v1.0/win",
+        "Xamarin.iOS,Version=v1.0/win-x64",
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    }
+  ]
 }
