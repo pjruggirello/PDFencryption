@@ -1,13 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "T4Wo5/viAMksQCvlacDMlqHtVYRabfxXe0AEfqF/QTE9a60+pPa3zZNGAlBQlOTjHxSjJB7tjZpw9vNzcBT5UA==",
+  "dgSpecHash": "qT1I41JFFhM4mf/4OXAzUNxt0JjdAqEW1mUenyeMkTaZ7eG0uZbwke2SxGwj4gQ/CqiElGBuB4gqjw7r+buAnw==",
   "success": true,
-  "projectFilePath": "D:\\Philip Ruggirello\\Visual Studio Projects\\PDFencryption Project\\PDFencryption\\PDFencryption.iOS\\PDFencryption.iOS.csproj",
+  "projectFilePath": "C:\\Users\\jacks\\Source\\Repos\\PDFencryptionACT\\PDFencryption\\PDFencryption.iOS\\PDFencryption.iOS.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\jacks\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
-    "C:\\Users\\Philip Ruggirello\\.nuget\\packages\\xamarin.forms\\4.8.0.1560\\xamarin.forms.4.8.0.1560.nupkg.sha512",
-    "C:\\Users\\Philip Ruggirello\\.nuget\\packages\\zxing.net.mobile\\2.4.1\\zxing.net.mobile.2.4.1.nupkg.sha512",
-    "C:\\Users\\Philip Ruggirello\\.nuget\\packages\\zxing.net.mobile.forms\\2.4.1\\zxing.net.mobile.forms.2.4.1.nupkg.sha512"
+    "C:\\Users\\jacks\\.nuget\\packages\\xamarin.forms\\4.8.0.1560\\xamarin.forms.4.8.0.1560.nupkg.sha512",
+    "C:\\Users\\jacks\\.nuget\\packages\\zxing.net.mobile\\2.4.1\\zxing.net.mobile.2.4.1.nupkg.sha512",
+    "C:\\Users\\jacks\\.nuget\\packages\\zxing.net.mobile.forms\\2.4.1\\zxing.net.mobile.forms.2.4.1.nupkg.sha512"
   ],
   "logs": []
 }
