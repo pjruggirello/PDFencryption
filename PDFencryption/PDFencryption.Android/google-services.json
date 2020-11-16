@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "608155900790",
+    "firebase_url": "https://sd-barcode-security.firebaseio.com",
+    "project_id": "sd-barcode-security",
+    "storage_bucket": "sd-barcode-security.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:608155900790:android:46b1010609bd8d8eb3b857",
+        "android_client_info": {
+          "package_name": "com.xamarin.PDFencryption"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "608155900790-d2b86cm2en9g02oc2ph6kr3v5m79kqgj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCujiT6ImkaqFZRYrxbdT5bUgve63Lv5Q4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "608155900790-d2b86cm2en9g02oc2ph6kr3v5m79kqgj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
