@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "uf1uYzo2OWA1WHIdLcdHNaRNJXnpoQ8G6pbZF4S4AniiyHXrzTkUfFlIMeihdC5BRwrEUla/j8p7PJoELr71ew==",
+  "dgSpecHash": "Mhamg/qn0saA9klD8NsPnafrZv5e7gyqOO0KVFX2bWD6SiwOfd32woBk3LUJ9fWCTlh/0xSjJU/Yiq3XnkVTKA==",
   "success": true,
   "projectFilePath": "C:\\Users\\jacks\\Source\\Repos\\PDFencryptionACT\\PDFencryption\\PDFencryption.iOS\\PDFencryption.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jacks\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\jacks\\.nuget\\packages\\xamarin.build.download\\0.10.0\\xamarin.build.download.0.10.0.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Users\\jacks\\.nuget\\packages\\xamarin.firebase.ios.core\\6.10.4\\xamarin.firebase.ios.core.6.10.4.nupkg.sha512",
+    "C:\\Users\\jacks\\.nuget\\packages\\xamarin.firebase.ios.database\\6.6.0\\xamarin.firebase.ios.database.6.6.0.nupkg.sha512",
     "C:\\Users\\jacks\\.nuget\\packages\\xamarin.forms\\4.8.0.1560\\xamarin.forms.4.8.0.1560.nupkg.sha512",
     "C:\\Users\\jacks\\.nuget\\packages\\zxing.net.mobile\\2.4.1\\zxing.net.mobile.2.4.1.nupkg.sha512",
     "C:\\Users\\jacks\\.nuget\\packages\\zxing.net.mobile.forms\\2.4.1\\zxing.net.mobile.forms.2.4.1.nupkg.sha512"

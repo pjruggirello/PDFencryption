@@ -34,6 +34,7 @@ FrameLayout;C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryp
 item;C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\lp\44\jl\res\values\styles.xml
 LinearLayout;C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\lp\44\jl\res\layout\bottomtablayout.xml
 paths;C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\lp\43\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+resources;C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\googsvcsjson\values\goog_svcs_json.xml
 resources;C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\lp\44\jl\res\values\attrs.xml
 resources;C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\lp\44\jl\res\values\strings.xml
 resources;C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\lp\44\jl\res\values\styles.xml
@@ -44,6 +45,7 @@ set;C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.And
 set;C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\lp\44\jl\res\anim\enterfromright.xml
 set;C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\lp\44\jl\res\anim\exittoleft.xml
 set;C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\lp\44\jl\res\anim\exittoright.xml
+string;C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\googsvcsjson\values\goog_svcs_json.xml
 string;C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\lp\44\jl\res\values\strings.xml
 string;C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\lp\48\jl\res\values\strings.xml
 style;C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\lp\44\jl\res\values\styles.xml
