@@ -61,92 +61,92 @@
 	.section	.rodata.map_aname.10,"aMS",%progbits,1
 	.type	.L.map_aname.10, %object
 .L.map_aname.10:
-	.asciz	"PDFencryption.Android"
-	.size	.L.map_aname.10, 22
+	.asciz	"ZXing.Net.Mobile.Forms.Android"
+	.size	.L.map_aname.10, 31
 
 	.section	.rodata.map_aname.11,"aMS",%progbits,1
 	.type	.L.map_aname.11, %object
 .L.map_aname.11:
-	.asciz	"ZXing.Net.Mobile.Forms.Android"
-	.size	.L.map_aname.11, 31
+	.asciz	"Mono.Android"
+	.size	.L.map_aname.11, 13
 
 	.section	.rodata.map_aname.12,"aMS",%progbits,1
 	.type	.L.map_aname.12, %object
 .L.map_aname.12:
-	.asciz	"Mono.Android"
-	.size	.L.map_aname.12, 13
+	.asciz	"Xamarin.AndroidX.DrawerLayout"
+	.size	.L.map_aname.12, 30
 
 	.section	.rodata.map_aname.13,"aMS",%progbits,1
 	.type	.L.map_aname.13, %object
 .L.map_aname.13:
-	.asciz	"Xamarin.AndroidX.DrawerLayout"
+	.asciz	"Xamarin.AndroidX.RecyclerView"
 	.size	.L.map_aname.13, 30
 
 	.section	.rodata.map_aname.14,"aMS",%progbits,1
 	.type	.L.map_aname.14, %object
 .L.map_aname.14:
-	.asciz	"Xamarin.AndroidX.RecyclerView"
-	.size	.L.map_aname.14, 30
+	.asciz	"Xamarin.AndroidX.SavedState"
+	.size	.L.map_aname.14, 28
 
 	.section	.rodata.map_aname.15,"aMS",%progbits,1
 	.type	.L.map_aname.15, %object
 .L.map_aname.15:
-	.asciz	"Xamarin.AndroidX.SavedState"
-	.size	.L.map_aname.15, 28
+	.asciz	"Xamarin.Essentials"
+	.size	.L.map_aname.15, 19
 
 	.section	.rodata.map_aname.16,"aMS",%progbits,1
 	.type	.L.map_aname.16, %object
 .L.map_aname.16:
-	.asciz	"Xamarin.Essentials"
-	.size	.L.map_aname.16, 19
+	.asciz	"Xamarin.AndroidX.Loader"
+	.size	.L.map_aname.16, 24
 
 	.section	.rodata.map_aname.17,"aMS",%progbits,1
 	.type	.L.map_aname.17, %object
 .L.map_aname.17:
-	.asciz	"Xamarin.AndroidX.Loader"
-	.size	.L.map_aname.17, 24
+	.asciz	"Xamarin.AndroidX.AppCompat"
+	.size	.L.map_aname.17, 27
 
 	.section	.rodata.map_aname.18,"aMS",%progbits,1
 	.type	.L.map_aname.18, %object
 .L.map_aname.18:
-	.asciz	"Xamarin.AndroidX.AppCompat"
-	.size	.L.map_aname.18, 27
+	.asciz	"Xamarin.AndroidX.Lifecycle.LiveData.Core"
+	.size	.L.map_aname.18, 41
 
 	.section	.rodata.map_aname.19,"aMS",%progbits,1
 	.type	.L.map_aname.19, %object
 .L.map_aname.19:
-	.asciz	"Xamarin.AndroidX.Lifecycle.LiveData.Core"
-	.size	.L.map_aname.19, 41
+	.asciz	"Xamarin.Google.Guava.ListenableFuture"
+	.size	.L.map_aname.19, 38
 
 	.section	.rodata.map_aname.20,"aMS",%progbits,1
 	.type	.L.map_aname.20, %object
 .L.map_aname.20:
-	.asciz	"Xamarin.Google.Guava.ListenableFuture"
-	.size	.L.map_aname.20, 38
+	.asciz	"FastAndroidCamera"
+	.size	.L.map_aname.20, 18
 
 	.section	.rodata.map_aname.21,"aMS",%progbits,1
 	.type	.L.map_aname.21, %object
 .L.map_aname.21:
-	.asciz	"FastAndroidCamera"
-	.size	.L.map_aname.21, 18
+	.asciz	"Xamarin.Google.Android.Material"
+	.size	.L.map_aname.21, 32
 
 	.section	.rodata.map_aname.22,"aMS",%progbits,1
 	.type	.L.map_aname.22, %object
 .L.map_aname.22:
-	.asciz	"Xamarin.Google.Android.Material"
-	.size	.L.map_aname.22, 32
+	.asciz	"Xamarin.AndroidX.Lifecycle.ViewModel"
+	.size	.L.map_aname.22, 37
 
 	.section	.rodata.map_aname.23,"aMS",%progbits,1
 	.type	.L.map_aname.23, %object
 .L.map_aname.23:
-	.asciz	"Xamarin.AndroidX.Lifecycle.ViewModel"
-	.size	.L.map_aname.23, 37
+	.asciz	"Xamarin.AndroidX.Lifecycle.Common"
+	.size	.L.map_aname.23, 34
 
 	.section	.rodata.map_aname.24,"aMS",%progbits,1
 	.type	.L.map_aname.24, %object
 .L.map_aname.24:
-	.asciz	"Xamarin.AndroidX.Lifecycle.Common"
-	.size	.L.map_aname.24, 34
+	.asciz	"PDFencryption.Android"
+	.size	.L.map_aname.24, 22
 
 	.section	.rodata.map_aname.25,"aMS",%progbits,1
 	.type	.L.map_aname.25, %object

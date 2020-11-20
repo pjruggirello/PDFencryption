@@ -77,6 +77,7 @@ public class MonoPackageManager_Resources {
 		"Xamarin.Google.Android.Material.dll",
 		"FastAndroidCamera.dll",
 		"FormsViewGroup.dll",
+		"PDFencryption.dll",
 		"Xamarin.AndroidX.Activity.dll",
 		"Xamarin.AndroidX.Lifecycle.ViewModelSavedState.dll",
 		"Xamarin.AndroidX.SavedState.dll",
@@ -92,7 +93,6 @@ public class MonoPackageManager_Resources {
 		"zxing.portable.dll",
 		"ZXingNetMobile.dll",
 		"PDFencryption.Android.dll",
-		"PDFencryption.dll",
 	};
 	public static String[] Dependencies = new String[]{
 	};

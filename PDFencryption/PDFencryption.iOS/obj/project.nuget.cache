@@ -1,13 +1,34 @@
 {
   "version": 2,
-  "dgSpecHash": "h5eTW9VpZ55tbIzV4r+O1l9r6ba8LkPlMQqWR8OMUu5RaUSxKnwNKVznbt3DC2s9L0/bGizqFT6DOuJrFyW0gg==",
+  "dgSpecHash": "Qhr5za2f0hS7nxDNpv+LWbkm6/kHyH3a9bvxh5MNRXShiAs4LGsu5QkPzv6ga/rT6jrizilTFcmNZzoOU2CgCg==",
   "success": true,
   "projectFilePath": "D:\\Philip Ruggirello\\Visual Studio Projects\\PDFencryption Project\\PDFencryption\\PDFencryption.iOS\\PDFencryption.iOS.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Philip Ruggirello\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
     "C:\\Users\\Philip Ruggirello\\.nuget\\packages\\xamarin.forms\\4.8.0.1560\\xamarin.forms.4.8.0.1560.nupkg.sha512",
     "C:\\Users\\Philip Ruggirello\\.nuget\\packages\\zxing.net.mobile\\2.4.1\\zxing.net.mobile.2.4.1.nupkg.sha512",
     "C:\\Users\\Philip Ruggirello\\.nuget\\packages\\zxing.net.mobile.forms\\2.4.1\\zxing.net.mobile.forms.2.4.1.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file D:\\Philip Ruggirello\\Visual Studio Projects\\PDFencryption Project\\PDFencryption\\PDFencryption.iOS\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Xamarin.Forms from 4.8.0.1687 to 4.8.0.1560. Reference the package directly from the project to select a different version. \r\n PDFencryption.iOS -> PDFencryption -> Xamarin.Forms (>= 4.8.0.1687) \r\n PDFencryption.iOS -> Xamarin.Forms (>= 4.8.0.1560)",
+      "libraryId": "Xamarin.Forms",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0",
+        "Xamarin.iOS,Version=v1.0/win",
+        "Xamarin.iOS,Version=v1.0/win-x64",
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    }
+  ]
 }

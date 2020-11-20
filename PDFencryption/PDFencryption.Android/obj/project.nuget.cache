@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "lavE4dEhsX43UssA+8GAeRetu4pCGGxXWmNv7z+y+U9btC1DON7svVKbFEmO5O5UoSqDc1jBNp4he4Bcc1vEJA==",
+  "dgSpecHash": "tdp/ckibtgL+8p0Tp0upgWyIdoPiLX35DSJmCg5xDJLCL0aT24EYT7BCCI5IdPF2B3Jf/TW9Ld/iwdSLHKEJhw==",
   "success": true,
   "projectFilePath": "D:\\Philip Ruggirello\\Visual Studio Projects\\PDFencryption Project\\PDFencryption\\PDFencryption.Android\\PDFencryption.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Philip Ruggirello\\.nuget\\packages\\fastandroidcamera\\2.0.0\\fastandroidcamera.2.0.0.nupkg.sha512",
+    "C:\\Users\\Philip Ruggirello\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\Philip Ruggirello\\.nuget\\packages\\xamarin.android.arch.core.common\\1.1.1.3\\xamarin.android.arch.core.common.1.1.1.3.nupkg.sha512",
     "C:\\Users\\Philip Ruggirello\\.nuget\\packages\\xamarin.android.arch.core.runtime\\1.1.1.3\\xamarin.android.arch.core.runtime.1.1.1.3.nupkg.sha512",
     "C:\\Users\\Philip Ruggirello\\.nuget\\packages\\xamarin.android.arch.lifecycle.common\\1.1.1.3\\xamarin.android.arch.lifecycle.common.1.1.1.3.nupkg.sha512",
@@ -84,12 +85,39 @@
     "C:\\Users\\Philip Ruggirello\\.nuget\\packages\\xamarin.androidx.vectordrawable.animated\\1.1.0.1\\xamarin.androidx.vectordrawable.animated.1.1.0.1.nupkg.sha512",
     "C:\\Users\\Philip Ruggirello\\.nuget\\packages\\xamarin.androidx.versionedparcelable\\1.1.1.5\\xamarin.androidx.versionedparcelable.1.1.1.5.nupkg.sha512",
     "C:\\Users\\Philip Ruggirello\\.nuget\\packages\\xamarin.androidx.viewpager\\1.0.0.5\\xamarin.androidx.viewpager.1.0.0.5.nupkg.sha512",
+    "C:\\Users\\Philip Ruggirello\\.nuget\\packages\\xamarin.build.download\\0.10.0\\xamarin.build.download.0.10.0.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Users\\Philip Ruggirello\\.nuget\\packages\\xamarin.firebase.auth.interop\\119.0.0\\xamarin.firebase.auth.interop.119.0.0.nupkg.sha512",
+    "C:\\Users\\Philip Ruggirello\\.nuget\\packages\\xamarin.firebase.common\\119.3.0\\xamarin.firebase.common.119.3.0.nupkg.sha512",
+    "C:\\Users\\Philip Ruggirello\\.nuget\\packages\\xamarin.firebase.components\\116.0.0\\xamarin.firebase.components.116.0.0.nupkg.sha512",
+    "C:\\Users\\Philip Ruggirello\\.nuget\\packages\\xamarin.firebase.database\\119.3.0\\xamarin.firebase.database.119.3.0.nupkg.sha512",
+    "C:\\Users\\Philip Ruggirello\\.nuget\\packages\\xamarin.firebase.database.collection\\117.0.1\\xamarin.firebase.database.collection.117.0.1.nupkg.sha512",
     "C:\\Users\\Philip Ruggirello\\.nuget\\packages\\xamarin.forms\\4.8.0.1560\\xamarin.forms.4.8.0.1560.nupkg.sha512",
     "C:\\Users\\Philip Ruggirello\\.nuget\\packages\\xamarin.google.android.material\\1.0.0.1\\xamarin.google.android.material.1.0.0.1.nupkg.sha512",
+    "C:\\Users\\Philip Ruggirello\\.nuget\\packages\\xamarin.google.autovalue.annotations\\1.6.5\\xamarin.google.autovalue.annotations.1.6.5.nupkg.sha512",
     "C:\\Users\\Philip Ruggirello\\.nuget\\packages\\xamarin.google.guava.listenablefuture\\1.0.0.2\\xamarin.google.guava.listenablefuture.1.0.0.2.nupkg.sha512",
+    "C:\\Users\\Philip Ruggirello\\.nuget\\packages\\xamarin.googleplayservices.base\\117.2.1\\xamarin.googleplayservices.base.117.2.1.nupkg.sha512",
+    "C:\\Users\\Philip Ruggirello\\.nuget\\packages\\xamarin.googleplayservices.basement\\117.2.1\\xamarin.googleplayservices.basement.117.2.1.nupkg.sha512",
+    "C:\\Users\\Philip Ruggirello\\.nuget\\packages\\xamarin.googleplayservices.tasks\\117.0.2\\xamarin.googleplayservices.tasks.117.0.2.nupkg.sha512",
     "C:\\Users\\Philip Ruggirello\\.nuget\\packages\\zxing.net.mobile\\2.4.1\\zxing.net.mobile.2.4.1.nupkg.sha512",
     "C:\\Users\\Philip Ruggirello\\.nuget\\packages\\zxing.net.mobile.forms\\2.4.1\\zxing.net.mobile.forms.2.4.1.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file D:\\Philip Ruggirello\\Visual Studio Projects\\PDFencryption Project\\PDFencryption\\PDFencryption.Android\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Xamarin.Forms from 4.8.0.1687 to 4.8.0.1560. Reference the package directly from the project to select a different version. \r\n PDFencryption.Android -> PDFencryption -> Xamarin.Forms (>= 4.8.0.1687) \r\n PDFencryption.Android -> Xamarin.Forms (>= 4.8.0.1560)",
+      "libraryId": "Xamarin.Forms",
+      "targetGraphs": [
+        "MonoAndroid,Version=v9.0"
+      ]
+    }
+  ]
 }
