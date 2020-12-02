@@ -20,4 +20,7 @@
     <Import Project="$(NuGetPackageRoot)xamarin.androidx.migration\1.0.7.1\buildTransitive\monoandroid90\Xamarin.AndroidX.Migration.props" Condition="Exists('$(NuGetPackageRoot)xamarin.androidx.migration\1.0.7.1\buildTransitive\monoandroid90\Xamarin.AndroidX.Migration.props')" />
     <Import Project="$(NuGetPackageRoot)xamarin.forms\4.8.0.1560\buildTransitive\Xamarin.Forms.props" Condition="Exists('$(NuGetPackageRoot)xamarin.forms\4.8.0.1560\buildTransitive\Xamarin.Forms.props')" />
   </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgMicrosoft_Bcl_Build Condition=" '$(PkgMicrosoft_Bcl_Build)' == '' ">C:\Users\Philip Ruggirello\.nuget\packages\microsoft.bcl.build\1.0.14</PkgMicrosoft_Bcl_Build>
+  </PropertyGroup>
 </Project>

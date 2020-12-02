@@ -1,8 +1,15 @@
-﻿using PDFencryption.Views;
+﻿using Firebase.Database;
+using Firebase.Database.Query;
+using FireSharp.Response;
+using FireSharp.Config;
+using FireSharp.Interfaces;
+using PDFencryption.Models;
+using PDFencryption.Views;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
@@ -16,6 +23,8 @@ namespace PDFencryption.Views
     //[XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class ScanScreenPage : ContentPage
     {
+
+       
 
         public ScanScreenPage()
         {
@@ -33,7 +42,13 @@ namespace PDFencryption.Views
             return availableResolutions[availableResolutions.Count - 1];
         }
 
+        IFirebaseConfig ifc = new FirebaseConfig()
+        {
+            AuthSecret= "wpKeQkSg3RSCmvasQtXLCQohsyYDl1wdU7nYsNjg",
+            BasePath= "https://sd-barcode-security.firebaseio.com/"
+        };
 
+        IFirebaseClient client;
 
 
         async void Scan_Barcode(object sender, System.EventArgs e)
@@ -49,7 +64,8 @@ namespace PDFencryption.Views
 
             var scanPage = new ZXingScannerPage(options);
 
-            
+            client = new FireSharp.FirebaseClient(ifc);
+
 
             await Navigation.PushModalAsync(scanPage);
             scanPage.OnScanResult += (result) =>
@@ -60,6 +76,14 @@ namespace PDFencryption.Views
                    await Navigation.PopModalAsync();
                    await DisplayAlert("Scanned Barcode", result.Text, "OK");
 
+                  
+                   // Attempt at sending the reult barcode to the Firebase Database
+                   Flightkey flightkey = new Flightkey()
+                   {
+                       flight = result.Text
+                   };
+
+                   var set = client.Set(@"flightkeys/" + result.Text, flightkey);
                });
 
             };
