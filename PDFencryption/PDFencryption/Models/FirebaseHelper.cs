@@ -1,38 +1,49 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using Firebase.Database;
 using Firebase.Database.Query;
+using Newtonsoft.Json;
 using PDFencryption.Models;
 
 namespace PDFencryption.Models
 {
-    class FirebaseHelper
+    public class FirebaseHelper
     {
-        public async Task<Key> GetKey()
+        FirebaseClient firebase = new FirebaseClient("https://sd-barcode-security.firebaseio.com/");
+       
+        public async Task<List<Flightkey>> GetAllFlightKeys()
         {
+            return (await firebase.Child("flightkeys").OnceAsync<Flightkey>()).Select(item => new Flightkey
+            {
+                key = item.Object.key,
+                flight = item.Object.flight
 
-            return (await firebase
-              .Child("Key")
-              .OnceAsync<Key>()).Select(item => new Key
-              {
-
-                  key = item.Object.key
-              });
+            }).ToList();
         }
 
-
-        public async Task<Text> GetText()
+        public async Task AddFlightkey(string key, string flight)
         {
+            await firebase.Child("flightkeys").PostAsync(new Flightkey() { flight = Flight, key = Key });
+        }
 
-            return (await firebase
-              .Child("Text")
-              .OnceAsync<Text>()).Select(item => new Text
-              {
+        public async Task<Flightkey> GetFlightkey(string flight)
+        {
+            var allFlightkeys = await GetAllFlightKeys();
+            await firebase.Child("flightkeys").OnceAsync<Flightkey>();
+            return allFlightkeys.Where(a => a.Flight == flight).FirstOrDefault();
+        }
 
-                  text = item.Object.text
-              });
+        public async Task UpdateFlightkey(string flight, string key)
+        {
+            var toUpdateFlightkey = (await firebase.Child("flightkeys").OnceAsync<Flightkey>()).Where(a => a.Object.Flight == flight).FirstOrDefault();
+            await firebase.Child("flightkeys").Child(toUpdateFlightkey.Key).PutAsync(new Flightkey() { flight = Flight, key = Key });
+        }
+        public async Task DeleteFlightkey(string flight)
+        {
+            var toDeleteFlight = (await firebase.Child("flightkeys").OnceAsync<Flightkey>()).Where(a => a.Object.flight == Flight).FirstOrDefault();
+            await firebase.Child("flightkeys").Child(toDeleteFlight.Key).DeleteAsync();
+        
         }
     }
 }
