@@ -33,6 +33,10 @@ namespace PDFencryption.Views
             return availableResolutions[availableResolutions.Count - 1];
         }
 
+        public async Task 
+
+
+
         async void Scan_Barcode(object sender, System.EventArgs e)
         {
             var options = new MobileBarcodeScanningOptions

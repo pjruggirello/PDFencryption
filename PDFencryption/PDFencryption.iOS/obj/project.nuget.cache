@@ -1,14 +1,24 @@
 {
   "version": 2,
-  "dgSpecHash": "Qhr5za2f0hS7nxDNpv+LWbkm6/kHyH3a9bvxh5MNRXShiAs4LGsu5QkPzv6ga/rT6jrizilTFcmNZzoOU2CgCg==",
+  "dgSpecHash": "fWe4LqVjRNos6dobhHBrH2AMfO4PHyqjNysmS5WPZlCUlTVBdgyof1dUZZNuzw+zN6nKCe7nvseDs2JIPcG/Hw==",
   "success": true,
-  "projectFilePath": "D:\\Philip Ruggirello\\Visual Studio Projects\\PDFencryption Project\\PDFencryption\\PDFencryption.iOS\\PDFencryption.iOS.csproj",
+  "projectFilePath": "C:\\Users\\jacks\\Source\\Repos\\PDFencryptionACT\\PDFencryption\\PDFencryption.iOS\\PDFencryption.iOS.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Philip Ruggirello\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\jacks\\.nuget\\packages\\firebasedatabase.net\\4.0.4\\firebasedatabase.net.4.0.4.nupkg.sha512",
+    "C:\\Users\\jacks\\.nuget\\packages\\litedb\\4.1.4\\litedb.4.1.4.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
+    "C:\\Users\\jacks\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\jacks\\.nuget\\packages\\system.reactive\\4.0.0\\system.reactive.4.0.0.nupkg.sha512",
+    "C:\\Users\\jacks\\.nuget\\packages\\system.reflection\\4.3.0\\system.reflection.4.3.0.nupkg.sha512",
+    "C:\\Users\\jacks\\.nuget\\packages\\system.reflection.typeextensions\\4.3.0\\system.reflection.typeextensions.4.3.0.nupkg.sha512",
+    "C:\\Users\\jacks\\.nuget\\packages\\system.runtime.interopservices.windowsruntime\\4.3.0\\system.runtime.interopservices.windowsruntime.4.3.0.nupkg.sha512",
+    "C:\\Users\\jacks\\.nuget\\packages\\xamarin.build.download\\0.10.0\\xamarin.build.download.0.10.0.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
-    "C:\\Users\\Philip Ruggirello\\.nuget\\packages\\xamarin.forms\\4.8.0.1560\\xamarin.forms.4.8.0.1560.nupkg.sha512",
-    "C:\\Users\\Philip Ruggirello\\.nuget\\packages\\zxing.net.mobile\\2.4.1\\zxing.net.mobile.2.4.1.nupkg.sha512",
-    "C:\\Users\\Philip Ruggirello\\.nuget\\packages\\zxing.net.mobile.forms\\2.4.1\\zxing.net.mobile.forms.2.4.1.nupkg.sha512"
+    "C:\\Users\\jacks\\.nuget\\packages\\xamarin.firebase.ios.core\\6.10.4\\xamarin.firebase.ios.core.6.10.4.nupkg.sha512",
+    "C:\\Users\\jacks\\.nuget\\packages\\xamarin.firebase.ios.database\\6.6.0\\xamarin.firebase.ios.database.6.6.0.nupkg.sha512",
+    "C:\\Users\\jacks\\.nuget\\packages\\xamarin.forms\\4.8.0.1560\\xamarin.forms.4.8.0.1560.nupkg.sha512",
+    "C:\\Users\\jacks\\.nuget\\packages\\zxing.net.mobile\\2.4.1\\zxing.net.mobile.2.4.1.nupkg.sha512",
+    "C:\\Users\\jacks\\.nuget\\packages\\zxing.net.mobile.forms\\2.4.1\\zxing.net.mobile.forms.2.4.1.nupkg.sha512"
   ],
   "logs": [
     {
