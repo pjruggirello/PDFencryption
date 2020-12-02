@@ -76,14 +76,17 @@ namespace PDFencryption.Views
                    await Navigation.PopModalAsync();
                    await DisplayAlert("Scanned Barcode", result.Text, "OK");
 
-                  
+                   var text = "abcdefg";
+
                    // Attempt at sending the reult barcode to the Firebase Database
                    Flightkey flightkey = new Flightkey()
                    {
-                       flight = result.Text
+                       
+                       flight = text
+                       // flight = result.Text
                    };
-
-                   var set = client.Set(@"flightkeys/" + result.Text, flightkey);
+                   var set = client.Set(@"flightkey/" + text, flightkey);
+                   // var set = client.Set(@"flightkeys/" + result.Text, flightkey);
                });
 
             };
