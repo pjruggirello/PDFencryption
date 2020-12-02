@@ -23,8 +23,6 @@ C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption\obj\Rel
 C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption\obj\Release\netstandard2.0\Views\ScanScreenPage.xaml.g.cs
 C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption\obj\Release\netstandard2.0\PDFencryption.AssemblyInfoInputs.cache
 C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption\obj\Release\netstandard2.0\PDFencryption.AssemblyInfo.cs
-C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption\obj\Release\netstandard2.0\PDFencryption.csproj.CoreCompileInputs.cache
-C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption\obj\Release\netstandard2.0\XamlC.stamp
 C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption\obj\Release\netstandard2.0\PDFencryption.dll
 C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption\obj\Release\netstandard2.0\ref\PDFencryption.dll
 C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption\obj\Release\netstandard2.0\PDFencryption.pdb
