@@ -87,7 +87,9 @@ namespace PDFencryption.Views
                    };
                    var set = client.Set(@"flightkey/" + text, flightkey);
                    // var set = client.Set(@"flightkeys/" + result.Text, flightkey);
-                   
+
+                   // trying to get the data
+                   //var info = client.Get("flightKeys").("DL263")
 
                    
                });
