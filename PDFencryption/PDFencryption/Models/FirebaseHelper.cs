@@ -24,7 +24,7 @@ namespace PDFencryption.Models
 
         public async Task AddFlightkey(string key, string flight)
         {
-            await firebase.Child("flightkeys").PostAsync(new Flightkey() { flight = Flight, key = Key });
+            await firebase.Child("flightkeys").PostAsync(new Flightkey() { Flight = flight, Key = key });
         }
 
         public async Task<Flightkey> GetFlightkey(string flight)
