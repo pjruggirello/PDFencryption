@@ -17,6 +17,7 @@ using Xamarin.Forms.Xaml;
 using ZXing;
 using ZXing.Mobile;
 using ZXing.Net.Mobile.Forms;
+using Newtonsoft.Json;
 
 namespace PDFencryption.Views
 {
@@ -76,22 +77,31 @@ namespace PDFencryption.Views
                    await Navigation.PopModalAsync();
                    await DisplayAlert("Scanned Barcode", result.Text, "OK");
 
-                   var text = "abcdefg";
+                   //var text = "abcdefg";
                    
                    // Attempt at sending the reult barcode to the Firebase Database
-                   Flightkey flightkey = new Flightkey()
+                   /*Flightkey flightkey = new Flightkey()
                    {
                        
                        flight = text
                        // flight = result.Text
                    };
-                   var set = client.Set(@"flightkey/" + text, flightkey);
+                   var set = client.Set(@"flightKey/DL263" + text, flightkey);
+                   */
                    // var set = client.Set(@"flightkeys/" + result.Text, flightkey);
 
                    // trying to get the data
                    //var info = client.Get("flightKeys").("DL263")
+                  // FirebaseResponse response = await client.GetAsync(@"flightKeys/DL263");
+                   //Dictionary<string, string> data = JsonConvert.DeserializeObject<Dictionary<string, string>>(response.Body.ToString());
 
-                   
+                   var info = client.Get(@"flightkey/DL263");
+                   Flightkey get = info.ResultAs<Flightkey>();
+                  
+                   await DisplayAlert("Encrypted text:", get.encryptedString, "OK");
+                   await DisplayAlert("Flight Number", get.flight, "OK");
+                   await DisplayAlert("Decryption Key", get.key, "OK");
+
                });
 
             };
