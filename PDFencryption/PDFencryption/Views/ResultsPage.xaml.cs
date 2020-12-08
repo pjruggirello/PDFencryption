@@ -14,12 +14,12 @@ namespace PDFencryption.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class ResultsPage : ContentPage
     {
-        public ResultsPage(String result)
+        public ResultsPage(String result, String key)
         {
             InitializeComponent();
 
             MainLabel.Text = result;
-            var key = "61626364313233346162636431323334";
+            var dkey = key;
 
 
 
@@ -30,7 +30,7 @@ namespace PDFencryption.Views
 
         async void Decrypt_Button_Clicked(object sender, System.EventArgs e)
         {
-             ResultsPage.DecryptString(key, result);
+             ResultsPage.DecryptString(dkey, result);
 
 
         }

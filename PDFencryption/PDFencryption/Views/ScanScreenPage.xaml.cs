@@ -103,7 +103,7 @@ namespace PDFencryption.Views
                   // await DisplayAlert("Decryption Key", get.key, "OK");
                   
 
-                  await Navigation.PushAsync(new ResultsPage(result.Text));
+                  await Navigation.PushAsync(new ResultsPage(result.Text, get.key));
                });
 
             };
