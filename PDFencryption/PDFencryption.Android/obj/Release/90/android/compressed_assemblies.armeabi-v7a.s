@@ -136,7 +136,7 @@
 
 	/* 12: PDFencryption.dll */
 	/* uncompressed_file_size */
-	.long	15872
+	.long	16896
 	/* loaded */
 	.byte	0
 	/* data */
@@ -793,7 +793,7 @@
 
 	/* 85: mscorlib.dll */
 	/* uncompressed_file_size */
-	.long	2130432
+	.long	2130944
 	/* loaded */
 	.byte	0
 	/* data */

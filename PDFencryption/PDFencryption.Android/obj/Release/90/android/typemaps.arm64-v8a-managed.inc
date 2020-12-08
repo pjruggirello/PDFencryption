@@ -1218,31 +1218,31 @@ module4_managed_to_java:
 	.section	.rodata.module5_managed_to_java,"a",@progbits
 	.type	module5_managed_to_java, @object
 module5_managed_to_java:
-	.word	33554435
-	.word	390
+	.word	33554434
+	.word	573
 	.size	module5_managed_to_java, 8
 
 	.section	.rodata.module6_managed_to_java,"a",@progbits
 	.type	module6_managed_to_java, @object
 module6_managed_to_java:
-	.word	33554443
-	.word	570
-	.word	33554445
-	.word	571
-	.size	module6_managed_to_java, 16
+	.word	33554435
+	.word	390
+	.size	module6_managed_to_java, 8
 
 	.section	.rodata.module7_managed_to_java,"a",@progbits
 	.type	module7_managed_to_java, @object
 module7_managed_to_java:
-	.word	33554435
-	.word	344
-	.size	module7_managed_to_java, 8
+	.word	33554443
+	.word	570
+	.word	33554445
+	.word	571
+	.size	module7_managed_to_java, 16
 
 	.section	.rodata.module8_managed_to_java,"a",@progbits
 	.type	module8_managed_to_java, @object
 module8_managed_to_java:
-	.word	33554434
-	.word	573
+	.word	33554435
+	.word	344
 	.size	module8_managed_to_java, 8
 
 	.section	.rodata.module9_managed_to_java,"a",@progbits

@@ -14,13 +14,16 @@ namespace PDFencryption.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class ResultsPage : ContentPage
     {
+        public byte[] dkey;
+        public byte[] ct;
         public ResultsPage(String result, String key)
         {
             InitializeComponent();
 
             MainLabel.Text = result;
-            byte[] dkey = Convert.FromBase64String(key);
-            byte[] cipherText = Convert.FromBase64String(result);
+             dkey = Convert.FromBase64String(key);
+             ct = Convert.FromBase64String(result);
+          
 
 
 
@@ -29,8 +32,8 @@ namespace PDFencryption.Views
 
         async void Decrypt_Button_Clicked(object sender, System.EventArgs e)
         {
-             ResultsPage.DecryptStringFromBytes_Aes(dkey, cipherText);
-
+            string decryptedText = ResultsPage.DecryptStringFromBytes_Aes(ct, dkey);
+            MainLabel.Text = decryptedText;
 
         }
 
@@ -43,7 +46,7 @@ namespace PDFencryption.Views
             await Navigation.PushAsync(new ScanScreenPage());
         }
 
-        static string DecryptStringFromBytes_Aes(byte[] cipherText, byte[] Key)
+        public static string DecryptStringFromBytes_Aes(byte[] cipherText, byte[] Key)
         {
             // Check arguments.
             if (cipherText == null || cipherText.Length <= 0)

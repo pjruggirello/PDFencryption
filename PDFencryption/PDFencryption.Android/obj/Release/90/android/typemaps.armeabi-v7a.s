@@ -155,8 +155,8 @@ map_modules:
 	/* java_map */
 	.long	0
 
-	/* module_uuid: 84e66c33-ad57-4ee2-a51b-3725b23603cf */
-	.byte	0x33, 0x6c, 0xe6, 0x84, 0x57, 0xad, 0xe2, 0x4e, 0xa5, 0x1b, 0x37, 0x25, 0xb2, 0x36, 0x03, 0xcf
+	/* module_uuid: 75b95b26-70cf-4a84-8079-e5c906832b55 */
+	.byte	0x26, 0x5b, 0xb9, 0x75, 0xcf, 0x70, 0x84, 0x4a, 0x80, 0x79, 0xe5, 0xc9, 0x06, 0x83, 0x2b, 0x55
 	/* entry_count */
 	.long	1
 	/* duplicate_count */
@@ -165,8 +165,27 @@ map_modules:
 	.long	module5_managed_to_java
 	/* duplicate_map */
 	.long	0
-	/* assembly_name: Xamarin.AndroidX.CardView */
+	/* assembly_name: PDFencryption.Android */
 	.long	.L.map_aname.5
+	/* image */
+	.long	0
+	/* java_name_width */
+	.long	0
+	/* java_map */
+	.long	0
+
+	/* module_uuid: 84e66c33-ad57-4ee2-a51b-3725b23603cf */
+	.byte	0x33, 0x6c, 0xe6, 0x84, 0x57, 0xad, 0xe2, 0x4e, 0xa5, 0x1b, 0x37, 0x25, 0xb2, 0x36, 0x03, 0xcf
+	/* entry_count */
+	.long	1
+	/* duplicate_count */
+	.long	0
+	/* map */
+	.long	module6_managed_to_java
+	/* duplicate_map */
+	.long	0
+	/* assembly_name: Xamarin.AndroidX.CardView */
+	.long	.L.map_aname.6
 	/* image */
 	.long	0
 	/* java_name_width */
@@ -181,11 +200,11 @@ map_modules:
 	/* duplicate_count */
 	.long	0
 	/* map */
-	.long	module6_managed_to_java
+	.long	module7_managed_to_java
 	/* duplicate_map */
 	.long	0
 	/* assembly_name: FormsViewGroup */
-	.long	.L.map_aname.6
+	.long	.L.map_aname.7
 	/* image */
 	.long	0
 	/* java_name_width */
@@ -200,29 +219,10 @@ map_modules:
 	/* duplicate_count */
 	.long	0
 	/* map */
-	.long	module7_managed_to_java
-	/* duplicate_map */
-	.long	0
-	/* assembly_name: Xamarin.AndroidX.Activity */
-	.long	.L.map_aname.7
-	/* image */
-	.long	0
-	/* java_name_width */
-	.long	0
-	/* java_map */
-	.long	0
-
-	/* module_uuid: a31f0c6c-d86b-44bd-80e9-e4cc85f2fb90 */
-	.byte	0x6c, 0x0c, 0x1f, 0xa3, 0x6b, 0xd8, 0xbd, 0x44, 0x80, 0xe9, 0xe4, 0xcc, 0x85, 0xf2, 0xfb, 0x90
-	/* entry_count */
-	.long	1
-	/* duplicate_count */
-	.long	0
-	/* map */
 	.long	module8_managed_to_java
 	/* duplicate_map */
 	.long	0
-	/* assembly_name: PDFencryption.Android */
+	/* assembly_name: Xamarin.AndroidX.Activity */
 	.long	.L.map_aname.8
 	/* image */
 	.long	0
@@ -3718,7 +3718,7 @@ map_java:
 
 	/* #344 */
 	/* module_index */
-	.long	7
+	.long	8
 	/* type_token_id */
 	.long	33554435
 	/* java_name */
@@ -4132,7 +4132,7 @@ map_java:
 
 	/* #390 */
 	/* module_index */
-	.long	5
+	.long	6
 	/* type_token_id */
 	.long	33554435
 	/* java_name */
@@ -5752,7 +5752,7 @@ map_java:
 
 	/* #570 */
 	/* module_index */
-	.long	6
+	.long	7
 	/* type_token_id */
 	.long	33554443
 	/* java_name */
@@ -5761,7 +5761,7 @@ map_java:
 
 	/* #571 */
 	/* module_index */
-	.long	6
+	.long	7
 	/* type_token_id */
 	.long	33554445
 	/* java_name */
@@ -5779,7 +5779,7 @@ map_java:
 
 	/* #573 */
 	/* module_index */
-	.long	8
+	.long	5
 	/* type_token_id */
 	.long	33554434
 	/* java_name */

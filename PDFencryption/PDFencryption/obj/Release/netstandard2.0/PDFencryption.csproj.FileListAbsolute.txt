@@ -17,14 +17,13 @@ C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption\bin\Rel
 C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption\bin\Release\netstandard2.0\PDFencryption.dll
 C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption\bin\Release\netstandard2.0\ref\PDFencryption.dll
 C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption\bin\Release\netstandard2.0\PDFencryption.pdb
-C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption\obj\Release\netstandard2.0\PDFencryption.csprojAssemblyReference.cache
 C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption\obj\Release\netstandard2.0\App.xaml.g.cs
 C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption\obj\Release\netstandard2.0\Views\ResultsPage.xaml.g.cs
 C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption\obj\Release\netstandard2.0\Views\ScanScreenPage.xaml.g.cs
 C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption\obj\Release\netstandard2.0\PDFencryption.AssemblyInfoInputs.cache
 C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption\obj\Release\netstandard2.0\PDFencryption.AssemblyInfo.cs
+C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption\obj\Release\netstandard2.0\PDFencryption.csproj.CoreCompileInputs.cache
+C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption\obj\Release\netstandard2.0\XamlC.stamp
 C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption\obj\Release\netstandard2.0\PDFencryption.dll
 C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption\obj\Release\netstandard2.0\ref\PDFencryption.dll
 C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption\obj\Release\netstandard2.0\PDFencryption.pdb
-C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption\obj\Release\netstandard2.0\PDFencryption.csproj.CoreCompileInputs.cache
-C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption\obj\Release\netstandard2.0\XamlC.stamp
