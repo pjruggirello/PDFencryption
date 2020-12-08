@@ -75,7 +75,7 @@ namespace PDFencryption.Views
                 Device.BeginInvokeOnMainThread(async () =>
                {
                    await Navigation.PopModalAsync();
-                   await DisplayAlert("Scanned Barcode", result.Text, "OK");
+                   //await DisplayAlert("Scanned Barcode", result.Text, "OK");
 
                    //var text = "abcdefg";
                    
@@ -95,19 +95,21 @@ namespace PDFencryption.Views
                   // FirebaseResponse response = await client.GetAsync(@"flightKeys/DL263");
                    //Dictionary<string, string> data = JsonConvert.DeserializeObject<Dictionary<string, string>>(response.Body.ToString());
 
-                   var info = client.Get(@"flightkey/DL263");
+                   var info = client.Get(@"flightKeys/DL263");
                    Flightkey get = info.ResultAs<Flightkey>();
                   
-                   await DisplayAlert("Encrypted text:", get.encryptedString, "OK");
-                   await DisplayAlert("Flight Number", get.flight, "OK");
-                   await DisplayAlert("Decryption Key", get.key, "OK");
+                  //   await DisplayAlert("Encrypted text:", get.encryptedString, "OK");
+                  // await DisplayAlert("Flight Number", get.flight, "OK");
+                  // await DisplayAlert("Decryption Key", get.key, "OK");
+                  
 
+                  await Navigation.PushAsync(new ResultsPage(result.Text, get.key));
                });
 
             };
 
             // Navigate to our scanner page
-            await Navigation.PushAsync(new ResultsPage());
+           
         }
     }
 }
