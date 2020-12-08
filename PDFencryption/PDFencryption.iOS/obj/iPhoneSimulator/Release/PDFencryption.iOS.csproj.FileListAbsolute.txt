@@ -131,3 +131,14 @@ D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\
 D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.iOS\bin\iPhoneSimulator\Release\System.Reactive.dll
 D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.iOS\bin\iPhoneSimulator\Release\Firebase.Core.dll
 D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.iOS\bin\iPhoneSimulator\Release\Firebase.Database.dll
+C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.iOS\bin\iPhoneSimulator\Release\Firebase.dll
+C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.iOS\bin\iPhoneSimulator\Release\FireSharp.dll
+C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.iOS\bin\iPhoneSimulator\Release\LiteDB.dll
+C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.iOS\bin\iPhoneSimulator\Release\Microsoft.Threading.Tasks.Extensions.dll
+C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.iOS\bin\iPhoneSimulator\Release\Microsoft.Threading.Tasks.dll
+C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.iOS\bin\iPhoneSimulator\Release\System.Net.Http.Extensions.dll
+C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.iOS\bin\iPhoneSimulator\Release\System.Net.Http.Primitives.dll
+C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.iOS\bin\iPhoneSimulator\Release\Newtonsoft.Json.dll
+C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.iOS\bin\iPhoneSimulator\Release\System.Reactive.dll
+C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.iOS\bin\iPhoneSimulator\Release\Firebase.Core.dll
+C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.iOS\bin\iPhoneSimulator\Release\Firebase.Database.dll

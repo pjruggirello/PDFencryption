@@ -10,6 +10,18 @@
                    TextColor="#ffde59"
                    HorizontalOptions="CenterAndExpand" />
 
+
+            <Label x:Name = "MainLabel" HorizontalOptions="Center"/>
+            
+            <Button Text="Decrypt"
+                    TextColor="Black"
+                    VerticalOptions="EndAndExpand"
+                    HorizontalOptions="CenterAndExpand"
+                    Clicked="Decrypt_Button_Clicked"
+                    BackgroundColor="#B82813"
+                    WidthRequest="150"/>
+            
+            
             <Button Text="Scan Again"
                     TextColor="Black"
                     VerticalOptions="EndAndExpand"
@@ -17,7 +29,10 @@
                     Clicked="Scan_Again_Clicked"
                     BackgroundColor="#ffde59"
                     WidthRequest="300"/>
+
             
+            
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

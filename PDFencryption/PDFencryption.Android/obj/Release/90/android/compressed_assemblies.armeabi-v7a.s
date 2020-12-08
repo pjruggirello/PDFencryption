@@ -100,7 +100,7 @@
 
 	/* 8: Mono.Android.dll */
 	/* uncompressed_file_size */
-	.long	2027520
+	.long	2009600
 	/* loaded */
 	.byte	0
 	/* data */
@@ -136,7 +136,7 @@
 
 	/* 12: PDFencryption.dll */
 	/* uncompressed_file_size */
-	.long	14848
+	.long	15872
 	/* loaded */
 	.byte	0
 	/* data */
@@ -793,7 +793,7 @@
 
 	/* 85: mscorlib.dll */
 	/* uncompressed_file_size */
-	.long	2130944
+	.long	2130432
 	/* loaded */
 	.byte	0
 	/* data */
