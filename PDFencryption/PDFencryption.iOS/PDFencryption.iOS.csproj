@@ -141,6 +141,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\LabyrinthEncryptionLogo.png" />
+    <BundleResource Include="Resources\SecBrd.png" />
   </ItemGroup>
 </Project>

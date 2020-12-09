@@ -1,4 +1,6 @@
-﻿using Firebase.Database;
+﻿// Philip Ruggirello 12/8/2020
+
+using Firebase.Database;
 using Firebase.Database.Query;
 using FireSharp.Response;
 using FireSharp.Config;

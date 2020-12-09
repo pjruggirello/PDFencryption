@@ -122,7 +122,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\LabyrinthEncryptionLogo.png" />
+    <AndroidResource Include="Resources\drawable\SecBrd.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>
