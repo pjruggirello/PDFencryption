@@ -22,6 +22,7 @@ com.google.android.material.appbar.AppBarLayout;D:\Philip Ruggirello\Visual Stud
 com.google.android.material.bottomnavigation.BottomNavigationView;D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\lp\49\jl\res\layout\bottomtablayout.xml
 com.google.android.material.tabs.TabLayout;D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\lp\49\jl\res\layout\rootlayout.xml
 com.google.android.material.tabs.TabLayout;obj\Release\90\res\layout\tabbar.xml
+crc64720bb2db43a66fe9.FormsViewPager;D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\lp\49\jl\res\layout\rootlayout.xml
 declare-styleable;D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\lp\49\jl\res\values\attrs.xml
 external-cache-path;D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\lp\43\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 external-path;D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\lp\43\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml

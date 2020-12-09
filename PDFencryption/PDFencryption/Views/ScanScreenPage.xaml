@@ -1,5 +1,6 @@
-﻿<!-- Philip Ruggirello 12/8/2020 -->
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<!-- Philip Ruggirello 12/8/2020 -->
     
 <ContentPage Title="Scan PDF417 Barcode"
              xmlns="http://xamarin.com/schemas/2014/forms"
@@ -11,12 +12,13 @@
     
     <ContentPage.Content>
         <Grid>
+            <!-- Displays the app logo at the top of the page -->
             <Image Grid.Row="0" 
                    Source="SecBrd.png"
                    VerticalOptions="Start"
                    WidthRequest="400"
                    HeightRequest="300"/>
-            
+            <!-- When the scan button has been clicked this displays the screen where the user scans the barcode with a red line in the middle -->
             <zxing:ZXingBarcodeImageView Grid.Row="1"
                                          x:Name="BarcodeImageView" 
                                          BarcodeFormat="QR_CODE" 
@@ -31,7 +33,8 @@
                 </zxing:ZXingBarcodeImageView.BarcodeOptions>
                 
             </zxing:ZXingBarcodeImageView>
-
+            
+            <!-- Displays button that the user taps in order to scan their barcode -->
             <Button Grid.Row="1"
                 HorizontalOptions="Center"
                 VerticalOptions="Center"
@@ -40,7 +43,7 @@
                 Text="Scan Boarding Pass" 
                 Clicked="Scan_Barcode" 
                 TextColor="Black" 
-                BackgroundColor="#ffde59"/>
+                BackgroundColor="#8bcbfe"/>
             
         </Grid>
     </ContentPage.Content>

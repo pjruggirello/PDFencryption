@@ -22,96 +22,74 @@ using ZXing.Net.Mobile.Forms;
 using Newtonsoft.Json;
 
 namespace PDFencryption.Views
-{
-    //[XamlCompilation(XamlCompilationOptions.Compile)]
+{ 
     public partial class ScanScreenPage : ContentPage
     {
-
-       
-
+        // Creates the page
         public ScanScreenPage()
         {
             InitializeComponent();
         }
 
+        // Method to configure the camera resolution so that the camera can read the barcode
         CameraResolution HandleCameraResolutionSelectorDelegate(List<CameraResolution> availableResolutions)
         {
-            //Don't know if this will ever be null or empty
+            // Sets camera to the highest resolution avilable in order to read PDF417 barcode
             if (availableResolutions == null || availableResolutions.Count < 1)
                 return new CameraResolution() { Width = 800, Height = 600 };
 
-            //Debugging revealed that the last element in the list
-            //expresses the highest resolution. This could probably be more thorough.
             return availableResolutions[availableResolutions.Count - 1];
         }
 
+        // Configures the app with our database
         IFirebaseConfig ifc = new FirebaseConfig()
         {
             AuthSecret= "wpKeQkSg3RSCmvasQtXLCQohsyYDl1wdU7nYsNjg",
             BasePath= "https://sd-barcode-security.firebaseio.com/"
         };
 
+        // Instantiates our Firebase
         IFirebaseClient client;
 
-
+        // Method that scans the bar code in the camera
         async void Scan_Barcode(object sender, System.EventArgs e)
         {
             var options = new MobileBarcodeScanningOptions
             {
+                // Sets scanner to read PDF417 format
                 TryHarder = true,
                 CameraResolutionSelector = HandleCameraResolutionSelectorDelegate,
                 PossibleFormats = new List<BarcodeFormat> { BarcodeFormat.PDF_417 }
             };
 
+            // Makes sure camera reconfigures focus if unable to read barcode at first
             options.TryHarder = true;
 
+            // Creates the camera screen that the user places their barcode within
             var scanPage = new ZXingScannerPage(options);
 
+            // Instantiates our Firebase object
             client = new FireSharp.FirebaseClient(ifc);
 
-
+            // Waits on our scan page to be created
             await Navigation.PushModalAsync(scanPage);
+
+            // Once scan page has read the barcode it stores the text in the variable result
             scanPage.OnScanResult += (result) =>
             {
                 scanPage.IsScanning = false;
                 Device.BeginInvokeOnMainThread(async () =>
                {
                    await Navigation.PopModalAsync();
-                   //await DisplayAlert("Scanned Barcode", result.Text, "OK");
 
-                   //var text = "abcdefg";
-                   
-                   // Attempt at sending the reult barcode to the Firebase Database
-                   /*Flightkey flightkey = new Flightkey()
-                   {
-                       
-                       flight = text
-                       // flight = result.Text
-                   };
-                   var set = client.Set(@"flightKey/DL263" + text, flightkey);
-                   */
-                   // var set = client.Set(@"flightkeys/" + result.Text, flightkey);
-
-                   // trying to get the data
-                   //var info = client.Get("flightKeys").("DL263")
-                  // FirebaseResponse response = await client.GetAsync(@"flightKeys/DL263");
-                   //Dictionary<string, string> data = JsonConvert.DeserializeObject<Dictionary<string, string>>(response.Body.ToString());
-
+                   // Accesses our datbase in order to recieve the key to decrypt the data
                    var info = client.Get(@"flightKeys/DL263");
                    Flightkey get = info.ResultAs<Flightkey>();
                   
-                  //   await DisplayAlert("Encrypted text:", get.encryptedString, "OK");
-                  // await DisplayAlert("Flight Number", get.flight, "OK");
-                  // await DisplayAlert("Decryption Key", get.key, "OK");
-                  
-
+                   // Once the data has been stored in the result variable and the app has accessed the firebase, the app automatically redirects to the results page where the data is presented
                   await Navigation.PushAsync(new ResultsPage(result.Text, get.key));
                });
-
             };
-
-            // Navigate to our scanner page
-           
         }
     }
 }

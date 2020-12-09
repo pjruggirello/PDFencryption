@@ -2,12 +2,12 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PDFencryption.Views.ResultsPage"
-             BackgroundColor="Black">
+             BackgroundColor="White">
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Here is your boarding pass information:"
                    VerticalOptions="CenterAndExpand"
-                   TextColor="#ffde59"
+                   TextColor="Black"
                    HorizontalOptions="CenterAndExpand" />
 
 
@@ -18,7 +18,7 @@
                     VerticalOptions="EndAndExpand"
                     HorizontalOptions="CenterAndExpand"
                     Clicked="Decrypt_Button_Clicked"
-                    BackgroundColor="#B82813"
+                    BackgroundColor="#bbff9c"
                     WidthRequest="150"/>
             
             
@@ -27,7 +27,7 @@
                     VerticalOptions="EndAndExpand"
                     HorizontalOptions="CenterAndExpand"
                     Clicked="Scan_Again_Clicked"
-                    BackgroundColor="#ffde59"
+                    BackgroundColor="#8bcbfe"
                     WidthRequest="300"/>
 
             
