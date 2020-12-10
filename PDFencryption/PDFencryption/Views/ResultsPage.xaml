@@ -11,7 +11,7 @@
                    HorizontalOptions="CenterAndExpand" />
 
 
-            <Label x:Name = "MainLabel" HorizontalOptions="Center"/>
+            <Label x:Name = "MainLabel" HorizontalOptions="Center" TextColor="Black"/>
             
             <Button Text="Decrypt"
                     TextColor="Black"

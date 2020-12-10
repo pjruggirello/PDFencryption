@@ -27,3 +27,4 @@ C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption\obj\Rel
 C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption\obj\Release\netstandard2.0\PDFencryption.dll
 C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption\obj\Release\netstandard2.0\ref\PDFencryption.dll
 C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption\obj\Release\netstandard2.0\PDFencryption.pdb
+C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption\obj\Release\netstandard2.0\PDFencryption.csprojAssemblyReference.cache
