@@ -1,4 +1,6 @@
-﻿using System;
+﻿// Jack Shashaty 12/10/2020
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,12 +16,15 @@ namespace PDFencryption.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class ResultsPage : ContentPage
     {
+        // Variables to be used in Decryption method
         public byte[] dkey;
         public byte[] ct;
+
+        // Creates page with variables passsed in from ScanScreenPage
         public ResultsPage(String result, String key)
         {
             InitializeComponent();
-
+            //Displays Encrypted Text to page
             MainLabel.Text = result;
              dkey = Convert.FromBase64String(key);
              ct = Convert.FromBase64String(result);
@@ -29,23 +34,24 @@ namespace PDFencryption.Views
 
         }
 
-
+        // Decryption Button 
         async void Decrypt_Button_Clicked(object sender, System.EventArgs e)
         {
+            //Calls decryption method and displays decrypted text 
             string decryptedText = ResultsPage.DecryptStringFromBytes_Aes(ct, dkey);
             MainLabel.Text = decryptedText;
 
         }
 
 
-
+        //Button to scan another barcode, brings user to home page
         async void Scan_Again_Clicked(object sender, System.EventArgs e)
         {
            
 
             await Navigation.PushAsync(new ScanScreenPage());
         }
-
+        //Decryption Method
         public static string DecryptStringFromBytes_Aes(byte[] cipherText, byte[] Key)
         {
             // Check arguments.

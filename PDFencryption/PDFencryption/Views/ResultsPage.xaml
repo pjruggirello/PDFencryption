@@ -1,18 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
+    
+<!-- Jack Shashaty 12/10/2020-->    
+    
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PDFencryption.Views.ResultsPage"
              BackgroundColor="White">
     <ContentPage.Content>
         <StackLayout>
+            <!-- label that is displayed above the boarding pass information-->
             <Label Text="Here is your boarding pass information:"
                    VerticalOptions="CenterAndExpand"
                    TextColor="Black"
                    HorizontalOptions="CenterAndExpand" />
 
-
+            <!--Encrypted and Decrypted Text is displayed through this label-->
             <Label x:Name = "MainLabel" HorizontalOptions="Center" TextColor="Black"/>
-            
+
+            <!-- Displays Decryption button -->
             <Button Text="Decrypt"
                     TextColor="Black"
                     VerticalOptions="EndAndExpand"
@@ -20,8 +25,8 @@
                     Clicked="Decrypt_Button_Clicked"
                     BackgroundColor="#bbff9c"
                     WidthRequest="150"/>
-            
-            
+
+            <!--Dsiplays Scan Again button -->
             <Button Text="Scan Again"
                     TextColor="Black"
                     VerticalOptions="EndAndExpand"
