@@ -17,6 +17,8 @@ namespace PDFencryption.Views
     public partial class ResultsPage : ContentPage
     {
         // Variables to be used in Decryption method
+        public string k;
+        public string res;
         public byte[] dkey;
         public byte[] ct;
 
@@ -26,8 +28,8 @@ namespace PDFencryption.Views
             InitializeComponent();
             //Displays Encrypted Text to page
             MainLabel.Text = result;
-             dkey = Convert.FromBase64String(key);
-             ct = Convert.FromBase64String(result);
+            k = key;
+            res = result;
           
 
 
@@ -38,6 +40,8 @@ namespace PDFencryption.Views
         async void Decrypt_Button_Clicked(object sender, System.EventArgs e)
         {
             //Calls decryption method and displays decrypted text 
+            dkey = Convert.FromBase64String(key);
+            ct = Convert.FromBase64String(result);
             string decryptedText = ResultsPage.DecryptStringFromBytes_Aes(ct, dkey);
             MainLabel.Text = decryptedText;
 
