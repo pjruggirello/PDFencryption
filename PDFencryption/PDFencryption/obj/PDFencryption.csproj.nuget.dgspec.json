@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Philip Ruggirello\\Visual Studio Projects\\PDFencryption Project\\PDFencryption\\PDFencryption\\PDFencryption.csproj": {}
+    "C:\\Users\\jacks\\Source\\Repos\\PDFencryptionACT\\PDFencryption\\PDFencryption\\PDFencryption.csproj": {}
   },
   "projects": {
-    "D:\\Philip Ruggirello\\Visual Studio Projects\\PDFencryption Project\\PDFencryption\\PDFencryption\\PDFencryption.csproj": {
+    "C:\\Users\\jacks\\Source\\Repos\\PDFencryptionACT\\PDFencryption\\PDFencryption\\PDFencryption.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Philip Ruggirello\\Visual Studio Projects\\PDFencryption Project\\PDFencryption\\PDFencryption\\PDFencryption.csproj",
+        "projectUniqueName": "C:\\Users\\jacks\\Source\\Repos\\PDFencryptionACT\\PDFencryption\\PDFencryption\\PDFencryption.csproj",
         "projectName": "PDFencryption",
-        "projectPath": "D:\\Philip Ruggirello\\Visual Studio Projects\\PDFencryption Project\\PDFencryption\\PDFencryption\\PDFencryption.csproj",
-        "packagesPath": "C:\\Users\\Philip Ruggirello\\.nuget\\packages\\",
-        "outputPath": "D:\\Philip Ruggirello\\Visual Studio Projects\\PDFencryption Project\\PDFencryption\\PDFencryption\\obj\\",
+        "projectPath": "C:\\Users\\jacks\\Source\\Repos\\PDFencryptionACT\\PDFencryption\\PDFencryption\\PDFencryption.csproj",
+        "packagesPath": "C:\\Users\\jacks\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jacks\\Source\\Repos\\PDFencryptionACT\\PDFencryption\\PDFencryption\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Philip Ruggirello\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jacks\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -30,7 +30,6 @@
         },
         "frameworks": {
           "netstandard2.0": {
-            "targetAlias": "netstandard2.0",
             "projectReferences": {}
           }
         },
@@ -42,7 +41,6 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "targetAlias": "netstandard2.0",
           "dependencies": {
             "FireSharp": {
               "target": "Package",
@@ -89,7 +87,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -15,7 +15,7 @@
                    HorizontalOptions="CenterAndExpand" />
 
             <!--Encrypted and Decrypted Text is displayed through this label-->
-            <Label x:Name = "MainLabel" HorizontalOptions="Center" TextColor="Black"/>
+            <Label x:Name = "MainLabel" HorizontalOptions="Center" TextColor="Black"  Padding="50,0"/>
 
             <!-- Displays Decryption button -->
             <Button Text="Decrypt"

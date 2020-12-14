@@ -593,6 +593,35 @@ D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\
 D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\android\src\com\google\android\gms\common\R.java
 D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\android\src\crc6495d4f5d63cc5c882\AwaitableTaskCompleteListener_1.java
 D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\android\src\com\xamarin\pdfencryption\R.java
+D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\res\drawable\secbrd.png
+D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\cecil\secbrd.png
+D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\jl\353b48c4-363c-4d38-bc0a-e7eb59f5d5f4.jar
+D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\0482b2e8-5305-474d-b0c9-ef4e3f4bc99c.txt
+D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\0ca06e30-e024-4dee-8359-ebf1840ea99c.txt
+D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\1c6a7dde-4570-4b8e-a34f-24fb78b226b7.txt
+D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\1d784540-2ce7-4329-82fa-e055fd2e3806.txt
+D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\235a7087-c64b-45f7-adfa-8cd5ecb21356.txt
+D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\344058b7-8461-422d-bbd5-4b0ce3f3cb85.txt
+D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\34c47674-9a8a-42c9-829c-1529aac5e384.cfg
+D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\5064c5c6-80cb-44ac-8d79-37bb78dfebe0.txt
+D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\53ab6d06-9e04-4088-aa55-38ec4611926d.txt
+D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\5d69f845-7f5d-4ac9-b835-7475dca89c17.txt
+D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\653ea655-0531-4074-9104-86fbfec26187.txt
+D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\676f0642-5394-43ca-a607-ec4f69e31b06.txt
+D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\7942a84e-890e-4eb4-880b-ea2cb178953f.txt
+D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\a19a6095-5d8f-4116-9e00-fa6e3f02722f.txt
+D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\b2587f53-c0dd-49c1-8ef5-65e305efb7b8.txt
+D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\cec84729-c20d-4c54-850a-0cd24a0f8821.txt
+D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\f6e0f356-97af-40ab-aefc-a2291fd4e967.txt
+C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\bin\Release\PDFencryption.Android.dll
+C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\bin\Release\PDFencryption.Android.pdb
+C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\bin\Release\com.xamarin.PDFencryption.apk
+C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\bin\Release\com.xamarin.PDFencryption.aab
+C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\bin\Release\com.xamarin.PDFencryption-Signed.aab
+C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\bin\Release\com.xamarin.PDFencryption-Signed.apk
+C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\bin\Release\com.xamarin.PDFencryption-Signed.apk.idsig
+C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\bin\Release\PDFencryption.dll
+C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\bin\Release\PDFencryption.pdb
 C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
 C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\googsvcsjson\values\goog_svcs_json.xml
 C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\build.props
@@ -603,15 +632,6 @@ C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android
 C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\res.flag
 C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\stamp\_AndroidXJetifyEmbeddedFiles.stamp
 C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\_AndroidXJetifyEmbeddedFiles.jetify
-C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\bin\Release\PDFencryption.Android.dll
-C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\bin\Release\PDFencryption.Android.pdb
-C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\bin\Release\com.xamarin.PDFencryption.apk
-C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\bin\Release\com.xamarin.PDFencryption.aab
-C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\bin\Release\com.xamarin.PDFencryption-Signed.aab
-C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\bin\Release\com.xamarin.PDFencryption-Signed.apk
-C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\bin\Release\com.xamarin.PDFencryption-Signed.apk.idsig
-C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\bin\Release\PDFencryption.dll
-C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\bin\Release\PDFencryption.pdb
 C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\R.txt
 C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\R.cs.flag
 C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\PDFencryption.Android.csproj.CoreCompileInputs.cache
@@ -638,6 +658,7 @@ C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android
 C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\res\mipmap-xxhdpi\launcher_foreground.png
 C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\res\mipmap-xxxhdpi\icon.png
 C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\res\mipmap-xxxhdpi\launcher_foreground.png
+C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\res\drawable\secbrd.png
 C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\uploadflags.txt
 C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\resolvedassemblies.hash
 C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\cecil\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
@@ -669,6 +690,7 @@ C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android
 C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\cecil\icon_round.xml
 C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\cecil\icon.png
 C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\cecil\launcher_foreground.png
+C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\cecil\secbrd.png
 C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\cecil\com.xamarin.PDFencryption-Signed.apk
 C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\cecil\com.xamarin.PDFencryption-Signed.apk.idsig
 C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\cecil\uploadflags.txt
@@ -866,7 +888,25 @@ C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android
 C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\android\assets\ZXing.Net.Mobile.Forms.dll
 C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\android\assets\zxing.portable.dll
 C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\android\assets\ZXingNetMobile.dll
+C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\jl\1a019f3c-3874-42f0-8dfb-2b1c8dc6fba7.jar
 C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\stamp\_AndroidXJetifyJavaLibraryRules.stamp
+C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\2d3e6b53-dc97-4388-9e12-4c3debb77627.txt
+C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\397aea58-bbbe-493f-9f3c-ac43a93bc2f8.txt
+C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\3c814414-ab3f-42e5-aabd-79586af9d577.txt
+C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\48a0d996-c376-4bb8-a6d3-6138f934071b.txt
+C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\514be055-6401-405c-8d09-9c47f3a50c57.txt
+C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\624bfde0-2885-4f31-b37c-1ad604b9b825.txt
+C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\6700fe02-3f78-4986-82e4-e3d2c3708e96.txt
+C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\6c5759d0-6640-43e6-97f9-f6e0f12f7974.txt
+C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\7160d108-0b09-4de0-9397-0f8dcb7e562a.txt
+C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\7b9a8bbb-1ef2-48e1-b91b-361c2340ed10.txt
+C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\82db34c0-18d0-495c-86c5-0bbeef0781d3.txt
+C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\86874d81-b649-43a2-adae-5c59f6558565.txt
+C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\8d0cd367-86f2-4b3e-bbb8-18da9d2dd30e.txt
+C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\9281a773-a7d7-4735-ae82-238671d59c25.txt
+C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\a42257c5-5d31-47a5-a9b1-e6bcf3632319.txt
+C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\cb8a27b3-1d3a-4ab6-8998-2c186f6bb51d.cfg
+C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\d080ac6c-697e-416e-9bf9-b5428c7c8072.txt
 C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\stamp\_AndroidXJetifyProguardRules.stamp
 C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\_AndroidXJetifyProguardRules.jetify
 C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\android\typemaps.armeabi-v7a.s
@@ -1165,43 +1205,3 @@ C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android
 C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\stamp\_GenerateJavaStubs.stamp
 C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\stamp\_ResolveLibraryProjectImports.stamp
-D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\res\drawable\secbrd.png
-D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\cecil\secbrd.png
-C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\res\drawable\secbrd.png
-C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\cecil\secbrd.png
-C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\jl\50d49e5e-e6fa-48e1-babc-8dd7881ed6bb.jar
-C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\051907f6-9503-409b-9ccd-a56389420df6.txt
-C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\0e867857-f603-437e-aa7a-a6b16c0dd8fe.cfg
-C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\2ddc048e-514c-4486-893e-857661dcf0e7.txt
-C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\3488c9eb-3c4e-4a6f-90d8-80e88bb13904.txt
-C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\445b2882-9fb6-4f8c-b612-506d78e21bab.txt
-C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\5510756b-8610-4f4e-bece-e42c5ab15204.txt
-C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\5dc8ec3f-905d-41c0-bd75-a6255360e6da.txt
-C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\72b1112b-9357-47fe-9555-454d927e8122.txt
-C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\74eac202-77f2-4998-bd96-28218888c6b7.txt
-C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\7526b575-9002-44b7-b2e4-3268fce90e37.txt
-C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\7ea37957-de4a-4b99-99df-ff127c9bb694.txt
-C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\8b0e681b-50f2-4eb6-88a9-5bb8bae6dc2d.txt
-C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\9c28c53c-409e-48dd-8765-ba6f820fc650.txt
-C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\a7ed0c45-4e20-4745-8e5d-96b119687bea.txt
-C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\d4421eb1-2496-4c2f-9018-804bff663ed6.txt
-C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\d93a57e2-bf5c-488d-9928-6543b12520ca.txt
-C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\de3b50c6-e7ad-4ec4-a9a9-51ff2830fff7.txt
-D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\jl\353b48c4-363c-4d38-bc0a-e7eb59f5d5f4.jar
-D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\0482b2e8-5305-474d-b0c9-ef4e3f4bc99c.txt
-D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\0ca06e30-e024-4dee-8359-ebf1840ea99c.txt
-D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\1c6a7dde-4570-4b8e-a34f-24fb78b226b7.txt
-D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\1d784540-2ce7-4329-82fa-e055fd2e3806.txt
-D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\235a7087-c64b-45f7-adfa-8cd5ecb21356.txt
-D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\344058b7-8461-422d-bbd5-4b0ce3f3cb85.txt
-D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\34c47674-9a8a-42c9-829c-1529aac5e384.cfg
-D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\5064c5c6-80cb-44ac-8d79-37bb78dfebe0.txt
-D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\53ab6d06-9e04-4088-aa55-38ec4611926d.txt
-D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\5d69f845-7f5d-4ac9-b835-7475dca89c17.txt
-D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\653ea655-0531-4074-9104-86fbfec26187.txt
-D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\676f0642-5394-43ca-a607-ec4f69e31b06.txt
-D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\7942a84e-890e-4eb4-880b-ea2cb178953f.txt
-D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\a19a6095-5d8f-4116-9e00-fa6e3f02722f.txt
-D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\b2587f53-c0dd-49c1-8ef5-65e305efb7b8.txt
-D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\cec84729-c20d-4c54-850a-0cd24a0f8821.txt
-D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\f6e0f356-97af-40ab-aefc-a2291fd4e967.txt
