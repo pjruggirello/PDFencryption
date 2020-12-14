@@ -46,7 +46,7 @@ namespace PDFencryption.Views
                 string decryptedText = ResultsPage.DecryptStringFromBytes_Aes(ct, dkey);
                 MainLabel.Text = decryptedText;
             }else{
-                DisplayAlert("Oops!", "Looks like the string you scanned is not encrypted.", "Ok")
+                DisplayAlert("Oops!", "Looks like the string you scanned is not encrypted.", "Ok");
             }
 
         }
