@@ -40,8 +40,8 @@ namespace PDFencryption.Views
         async void Decrypt_Button_Clicked(object sender, System.EventArgs e)
         {
             //Calls decryption method and displays decrypted text 
-            dkey = Convert.FromBase64String(key);
-            ct = Convert.FromBase64String(result);
+            dkey = Convert.FromBase64String(k);
+            ct = Convert.FromBase64String(res);
             string decryptedText = ResultsPage.DecryptStringFromBytes_Aes(ct, dkey);
             MainLabel.Text = decryptedText;
 

@@ -33,7 +33,8 @@
                     HorizontalOptions="CenterAndExpand"
                     Clicked="Scan_Again_Clicked"
                     BackgroundColor="#8bcbfe"
-                    WidthRequest="300"/>
+                    WidthRequest="300"
+                     />
 
             
             
