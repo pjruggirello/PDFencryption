@@ -14,3 +14,18 @@ D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\
 D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption\obj\Debug\netstandard2.0\PDFencryption.csproj.CoreCompileInputs.cache
 D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption\obj\Debug\netstandard2.0\Views\ResultsPage.xaml.g.cs
 D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption\bin\Debug\netstandard2.0\PDFencryption.deps.json
+C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption\bin\Debug\netstandard2.0\PDFencryption.dll
+C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption\bin\Debug\netstandard2.0\ref\PDFencryption.dll
+C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption\bin\Debug\netstandard2.0\PDFencryption.pdb
+C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption\obj\Debug\netstandard2.0\Views\ResultsPage.xaml.g.cs
+C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption\obj\Debug\netstandard2.0\Views\ScanScreenPage.xaml.g.cs
+C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption\obj\Debug\netstandard2.0\PDFencryption.AssemblyInfoInputs.cache
+C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption\obj\Debug\netstandard2.0\PDFencryption.AssemblyInfo.cs
+C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption\obj\Debug\netstandard2.0\PDFencryption.csproj.CoreCompileInputs.cache
+C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption\obj\Debug\netstandard2.0\PDFencryption.dll
+C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption\obj\Debug\netstandard2.0\ref\PDFencryption.dll
+C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption\obj\Debug\netstandard2.0\PDFencryption.pdb
+C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption\obj\Debug\netstandard2.0\PDFencryption.csprojAssemblyReference.cache
