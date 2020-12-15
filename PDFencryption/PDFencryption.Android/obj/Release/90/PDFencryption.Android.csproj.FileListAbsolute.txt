@@ -595,24 +595,6 @@ D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\
 D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\android\src\com\xamarin\pdfencryption\R.java
 D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\res\drawable\secbrd.png
 D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\cecil\secbrd.png
-D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\jl\353b48c4-363c-4d38-bc0a-e7eb59f5d5f4.jar
-D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\0482b2e8-5305-474d-b0c9-ef4e3f4bc99c.txt
-D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\0ca06e30-e024-4dee-8359-ebf1840ea99c.txt
-D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\1c6a7dde-4570-4b8e-a34f-24fb78b226b7.txt
-D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\1d784540-2ce7-4329-82fa-e055fd2e3806.txt
-D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\235a7087-c64b-45f7-adfa-8cd5ecb21356.txt
-D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\344058b7-8461-422d-bbd5-4b0ce3f3cb85.txt
-D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\34c47674-9a8a-42c9-829c-1529aac5e384.cfg
-D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\5064c5c6-80cb-44ac-8d79-37bb78dfebe0.txt
-D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\53ab6d06-9e04-4088-aa55-38ec4611926d.txt
-D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\5d69f845-7f5d-4ac9-b835-7475dca89c17.txt
-D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\653ea655-0531-4074-9104-86fbfec26187.txt
-D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\676f0642-5394-43ca-a607-ec4f69e31b06.txt
-D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\7942a84e-890e-4eb4-880b-ea2cb178953f.txt
-D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\a19a6095-5d8f-4116-9e00-fa6e3f02722f.txt
-D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\b2587f53-c0dd-49c1-8ef5-65e305efb7b8.txt
-D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\cec84729-c20d-4c54-850a-0cd24a0f8821.txt
-D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\f6e0f356-97af-40ab-aefc-a2291fd4e967.txt
 C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\bin\Release\PDFencryption.Android.dll
 C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\bin\Release\PDFencryption.Android.pdb
 C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\bin\Release\com.xamarin.PDFencryption.apk
@@ -1205,3 +1187,21 @@ C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android
 C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\stamp\_GenerateJavaStubs.stamp
 C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\jacks\Source\Repos\PDFencryptionACT\PDFencryption\PDFencryption.Android\obj\Release\90\stamp\_ResolveLibraryProjectImports.stamp
+D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\jl\8f686a7f-0876-4d38-be2c-d745dad341d8.jar
+D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\03d2f150-2aee-4d03-ab0e-eeaef8fda35f.txt
+D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\0c123cce-928a-4cb2-91d5-b09a7389aafa.txt
+D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\0d3a690b-a847-4fbe-a8eb-5781c5873a90.txt
+D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\0d822685-a528-4879-ba48-2fb67c3097bb.txt
+D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\375c2167-9c77-4319-bbb8-86b101eaccfd.txt
+D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\44854182-79b1-4a38-99d5-66911796fa90.txt
+D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\64372dd1-5a7a-4cf1-a450-a2ab37751729.txt
+D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\7fc0d0ed-42da-4728-b334-d70bf150db4c.txt
+D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\87b0bd1a-373b-4aaa-ac5b-73bae17aa637.txt
+D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\a017d385-0df2-4180-8be6-104c3283facf.txt
+D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\a5f4ff91-b8e2-4ca6-ba40-137802b3343a.txt
+D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\bc56da81-fbf7-49d3-ba07-a67efe56ebbe.txt
+D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\c3572a97-617d-4afa-8481-780e11a7cc53.txt
+D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\de0c5c2c-6d35-4724-a465-971d0cadff8f.txt
+D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\e0a8157d-e66d-4914-9f6b-deda8fba6010.txt
+D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\e456def4-8ce7-44d6-a068-fbfd78648fa6.cfg
+D:\Philip Ruggirello\Visual Studio Projects\PDFencryption Project\PDFencryption\PDFencryption.Android\obj\Release\90\androidx\proguard\e84a4b1b-e73f-414e-bb7a-a68e86b2f3aa.txt
