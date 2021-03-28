@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "Xamarin.iOS,Version=v1.0": {
-      "FirebaseDatabase.net/4.0.4": {
+      "FirebaseDatabase.net/4.0.6": {
         "type": "package",
         "dependencies": {
           "LiteDB": "4.1.4",
@@ -353,10 +353,10 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "FireSharp": "2.0.4",
-          "FirebaseDatabase.net": "4.0.4",
+          "FirebaseDatabase.net": "4.0.6",
           "System.Numerics.Vectors": "4.5.0",
-          "Xamarin.Essentials": "1.5.3.2",
-          "Xamarin.Forms": "4.8.0.1687",
+          "Xamarin.Essentials": "1.6.1",
+          "Xamarin.Forms": "5.0.0.2012",
           "ZXing.Net.Mobile": "2.4.1",
           "ZXing.Net.Mobile.Forms": "2.4.1"
         },
@@ -369,7 +369,7 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win": {
-      "FirebaseDatabase.net/4.0.4": {
+      "FirebaseDatabase.net/4.0.6": {
         "type": "package",
         "dependencies": {
           "LiteDB": "4.1.4",
@@ -720,10 +720,10 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "FireSharp": "2.0.4",
-          "FirebaseDatabase.net": "4.0.4",
+          "FirebaseDatabase.net": "4.0.6",
           "System.Numerics.Vectors": "4.5.0",
-          "Xamarin.Essentials": "1.5.3.2",
-          "Xamarin.Forms": "4.8.0.1687",
+          "Xamarin.Essentials": "1.6.1",
+          "Xamarin.Forms": "5.0.0.2012",
           "ZXing.Net.Mobile": "2.4.1",
           "ZXing.Net.Mobile.Forms": "2.4.1"
         },
@@ -736,7 +736,7 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x64": {
-      "FirebaseDatabase.net/4.0.4": {
+      "FirebaseDatabase.net/4.0.6": {
         "type": "package",
         "dependencies": {
           "LiteDB": "4.1.4",
@@ -1087,10 +1087,10 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "FireSharp": "2.0.4",
-          "FirebaseDatabase.net": "4.0.4",
+          "FirebaseDatabase.net": "4.0.6",
           "System.Numerics.Vectors": "4.5.0",
-          "Xamarin.Essentials": "1.5.3.2",
-          "Xamarin.Forms": "4.8.0.1687",
+          "Xamarin.Essentials": "1.6.1",
+          "Xamarin.Forms": "5.0.0.2012",
           "ZXing.Net.Mobile": "2.4.1",
           "ZXing.Net.Mobile.Forms": "2.4.1"
         },
@@ -1103,7 +1103,7 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x86": {
-      "FirebaseDatabase.net/4.0.4": {
+      "FirebaseDatabase.net/4.0.6": {
         "type": "package",
         "dependencies": {
           "LiteDB": "4.1.4",
@@ -1454,10 +1454,10 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "FireSharp": "2.0.4",
-          "FirebaseDatabase.net": "4.0.4",
+          "FirebaseDatabase.net": "4.0.6",
           "System.Numerics.Vectors": "4.5.0",
-          "Xamarin.Essentials": "1.5.3.2",
-          "Xamarin.Forms": "4.8.0.1687",
+          "Xamarin.Essentials": "1.6.1",
+          "Xamarin.Forms": "5.0.0.2012",
           "ZXing.Net.Mobile": "2.4.1",
           "ZXing.Net.Mobile.Forms": "2.4.1"
         },
@@ -1471,14 +1471,14 @@
     }
   },
   "libraries": {
-    "FirebaseDatabase.net/4.0.4": {
-      "sha512": "XkdKzFT4rU7x1GEO3v0bGmLT7eXDZ/kHa+77mCHn9LP2KjCEQqt1R5tIctwmlaOEVy66Eb4QxHJ5rjaG8Et1/A==",
+    "FirebaseDatabase.net/4.0.6": {
+      "sha512": "BxKjW5nPqPhMKaGof3nrPUnHHMqvb7MYf5Cd611eMPsf8M9hcAMbjTu/kturPRdXz4NAMQXvkyaoQzFt7ud9Qg==",
       "type": "package",
-      "path": "firebasedatabase.net/4.0.4",
+      "path": "firebasedatabase.net/4.0.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "firebasedatabase.net.4.0.4.nupkg.sha512",
+        "firebasedatabase.net.4.0.6.nupkg.sha512",
         "firebasedatabase.net.nuspec",
         "lib/netstandard2.0/Firebase.dll",
         "lib/netstandard2.0/Firebase.xml"
@@ -2534,24 +2534,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Philip Ruggirello\\.nuget\\packages\\": {},
+    "C:\\Users\\jacks\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Philip Ruggirello\\Visual Studio Projects\\PDFencryption Project\\PDFencryption\\PDFencryption.iOS\\PDFencryption.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\jacks\\Source\\Repos\\PDFencryptionACT\\PDFencryption\\PDFencryption.iOS\\PDFencryption.iOS.csproj",
       "projectName": "PDFencryption.iOS",
-      "projectPath": "D:\\Philip Ruggirello\\Visual Studio Projects\\PDFencryption Project\\PDFencryption\\PDFencryption.iOS\\PDFencryption.iOS.csproj",
-      "packagesPath": "C:\\Users\\Philip Ruggirello\\.nuget\\packages\\",
-      "outputPath": "D:\\Philip Ruggirello\\Visual Studio Projects\\PDFencryption Project\\PDFencryption\\PDFencryption.iOS\\obj\\",
+      "projectPath": "C:\\Users\\jacks\\Source\\Repos\\PDFencryptionACT\\PDFencryption\\PDFencryption.iOS\\PDFencryption.iOS.csproj",
+      "packagesPath": "C:\\Users\\jacks\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jacks\\Source\\Repos\\PDFencryptionACT\\PDFencryption\\PDFencryption.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Philip Ruggirello\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jacks\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -2565,8 +2565,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "D:\\Philip Ruggirello\\Visual Studio Projects\\PDFencryption Project\\PDFencryption\\PDFencryption\\PDFencryption.csproj": {
-              "projectPath": "D:\\Philip Ruggirello\\Visual Studio Projects\\PDFencryption Project\\PDFencryption\\PDFencryption\\PDFencryption.csproj"
+            "C:\\Users\\jacks\\Source\\Repos\\PDFencryptionACT\\PDFencryption\\PDFencryption\\PDFencryption.csproj": {
+              "projectPath": "C:\\Users\\jacks\\Source\\Repos\\PDFencryptionACT\\PDFencryption\\PDFencryption\\PDFencryption.csproj"
             }
           }
         }
@@ -2611,7 +2611,20 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: Xamarin.Forms from 4.8.0.1687 to 4.8.0.1560. Reference the package directly from the project to select a different version. \r\n PDFencryption.iOS -> PDFencryption -> Xamarin.Forms (>= 4.8.0.1687) \r\n PDFencryption.iOS -> Xamarin.Forms (>= 4.8.0.1560)",
+      "message": "Detected package downgrade: Xamarin.Essentials from 1.6.1 to 1.5.3.2. Reference the package directly from the project to select a different version. \r\n PDFencryption.iOS -> PDFencryption -> Xamarin.Essentials (>= 1.6.1) \r\n PDFencryption.iOS -> Xamarin.Essentials (>= 1.5.3.2)",
+      "libraryId": "Xamarin.Essentials",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0",
+        "Xamarin.iOS,Version=v1.0/win",
+        "Xamarin.iOS,Version=v1.0/win-x64",
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Xamarin.Forms from 5.0.0.2012 to 4.8.0.1560. Reference the package directly from the project to select a different version. \r\n PDFencryption.iOS -> PDFencryption -> Xamarin.Forms (>= 5.0.0.2012) \r\n PDFencryption.iOS -> Xamarin.Forms (>= 4.8.0.1560)",
       "libraryId": "Xamarin.Forms",
       "targetGraphs": [
         "Xamarin.iOS,Version=v1.0",
