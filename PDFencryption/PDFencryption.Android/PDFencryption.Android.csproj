@@ -16,7 +16,6 @@
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
-    <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
     <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
     <AndroidEnableSGenConcurrent>true</AndroidEnableSGenConcurrent>
     <AndroidUseAapt2>true</AndroidUseAapt2>
@@ -122,7 +121,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\PDFencryption\PDFencryption.csproj">
-      <Project>{0DBBEF40-2408-4F75-824D-EA910160CFD4}</Project>
+      <Project>{05C679B4-DA9A-4A07-AAC4-37341C1A730D}</Project>
       <Name>PDFencryption</Name>
     </ProjectReference>
   </ItemGroup>
