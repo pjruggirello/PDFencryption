@@ -150,11 +150,17 @@
     </PackageReference>
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2012" />
     <PackageReference Include="Xamarin.Essentials" Version="1.6.1" />
+    <PackageReference Include="ZXing.Net.Mobile.Forms">
+      <Version>2.4.1</Version>
+    </PackageReference>
+    <PackageReference Include="ZXing.Net.Mobile">
+      <Version>2.4.1</Version>
+    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <ProjectReference Include="..\PDFencryption\PDFencryption.csproj">
-      <Project>{0DBBEF40-2408-4F75-824D-EA910160CFD4}</Project>
+      <Project>{05C679B4-DA9A-4A07-AAC4-37341C1A730D}</Project>
       <Name>PDFencryption</Name>
     </ProjectReference>
   </ItemGroup>
