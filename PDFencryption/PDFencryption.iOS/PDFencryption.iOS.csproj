@@ -73,9 +73,6 @@
     <BundleResource Include="Resources\SecBrd.png" />
   </ItemGroup>
   <ItemGroup>
-    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\Contents.json">
-      <Visible>false</Visible>
-    </ImageAsset>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\SecBrd - 1024x1024.png">
       <Visible>false</Visible>
     </ImageAsset>

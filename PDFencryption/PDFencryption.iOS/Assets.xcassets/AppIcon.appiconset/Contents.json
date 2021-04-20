@@ -68,32 +68,28 @@
     {
       "scale": "2x",
       "size": "40x40",
-      "idiom": "iphone",
-      "filename": "SecBrd - 80x80.png"
+      "idiom": "iphone"
     },
     {
       "scale": "3x",
       "size": "40x40",
-      "idiom": "iphone",
-      "filename": "SecBrd -120x1201.png"
+      "idiom": "iphone"
+      
     },
     {
       "scale": "2x",
       "size": "60x60",
-      "idiom": "iphone",
-      "filename": "SecBrd -120x120.png"
+      "idiom": "iphone"
     },
     {
       "scale": "3x",
       "size": "60x60",
-      "idiom": "iphone",
-      "filename": "SecBrd - 180x180.png"
+      "idiom": "iphone"
     },
     {
       "scale": "1x",
       "size": "1024x1024",
-      "idiom": "ios-marketing",
-      "filename": "SecBrd - 1024x1024.png"
+      "idiom": "ios-marketing"
     }
   ],
   "properties": {},
