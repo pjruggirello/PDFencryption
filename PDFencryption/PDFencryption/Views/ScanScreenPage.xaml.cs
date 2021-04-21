@@ -31,6 +31,11 @@ namespace PDFencryption.Views
             InitializeComponent();
         }
 
+
+
+        
+
+
         // Method to configure the camera resolution so that the camera can read the barcode
         CameraResolution HandleCameraResolutionSelectorDelegate(List<CameraResolution> availableResolutions)
         {
@@ -38,7 +43,13 @@ namespace PDFencryption.Views
             if (availableResolutions == null || availableResolutions.Count < 1)
                 return new CameraResolution() { Width = 800, Height = 600 };
 
-            return availableResolutions[availableResolutions.Count - 1];
+            return availableResolutions[0];
+                //[availableResolutions.Count - 1];
+           
+            
+
+
+
         }
 
         // Configures the app with our database
@@ -61,6 +72,14 @@ namespace PDFencryption.Views
                 CameraResolutionSelector = HandleCameraResolutionSelectorDelegate,
                 PossibleFormats = new List<BarcodeFormat> { BarcodeFormat.PDF_417 }
             };
+
+
+
+
+
+
+
+
 
             // Makes sure camera reconfigures focus if unable to read barcode at first
             options.TryHarder = true;
