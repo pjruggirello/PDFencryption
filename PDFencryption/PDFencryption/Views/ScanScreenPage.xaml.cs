@@ -102,7 +102,8 @@ namespace PDFencryption.Views
                    await Navigation.PopModalAsync();
 
                    // Accesses our datbase in order to recieve the key to decrypt the data
-                   var info = client.Get(@"flightKeys/DL263");
+                   //var info = client.Get(@"flightKeys/DL263");
+                   var info = client.Get(@"airlines/Delta/flights/DL123");
                    Flightkey get = info.ResultAs<Flightkey>();
                   
                    // Once the data has been stored in the result variable and the app has accessed the firebase, the app automatically redirects to the results page where the data is presented

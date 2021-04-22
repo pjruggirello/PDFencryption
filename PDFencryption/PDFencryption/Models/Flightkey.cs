@@ -14,6 +14,6 @@ namespace PDFencryption.Models
     class Flightkey
     {
         public string key  { get; set; }
-        public string flight  { get; set; }
+        public string flightNumber  { get; set; }
     }
 }
