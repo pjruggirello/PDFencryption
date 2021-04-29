@@ -105,7 +105,11 @@ namespace PDFencryption.Views
                 // Instantiates our Firebase object
                 client = new FireSharp.FirebaseClient(ifc);
                 var info = client.Get(@"airlines/Delta/flights");
-                Dictionary<string, string> get = info.ResultAs<Dictionary<string, string>>();
+
+                List<Flights> get = new List<Flights>();
+                foreach(var fl in info){
+                    get.Add(fl.ResultAs<Flights>());
+                }
                 return get;
                 /*
                 return new Dictionary<string, string>(CultureInfo.GetCultures(CultureTypes.AllCultures & ~CultureTypes.NeutralCultures)
