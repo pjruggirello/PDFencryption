@@ -14,6 +14,11 @@ using Vapolia.WheelPickerForms;
 using Xamarin.Forms;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Firebase.Database;
+using Firebase.Database.Query;
+using FireSharp.Response;
+using FireSharp.Config;
+using FireSharp.Interfaces;
 
 namespace PDFencryption.Views
 {
@@ -26,6 +31,15 @@ namespace PDFencryption.Views
             BindingContext = new CountryPickerPageModel();
         }
 
+        // Configures the app with our database
+        IFirebaseConfig ifc = new FirebaseConfig()
+        {
+            AuthSecret= "wpKeQkSg3RSCmvasQtXLCQohsyYDl1wdU7nYsNjg",
+            BasePath= "https://sd-barcode-security.firebaseio.com/"
+        };
+
+        // Instantiates our Firebase
+        IFirebaseClient client;
 
 
 
@@ -67,7 +81,7 @@ namespace PDFencryption.Views
                 }
             }
 
-            public CountryPickerModel()
+            public FlightPickerModel()
             {
                 var countries = GetCountries();
                 ItemsSource = countries.Values.OrderBy(c => c).ToList();
@@ -87,14 +101,21 @@ namespace PDFencryption.Views
                 PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
             }
 
-            private Dictionary<string, string> GetCountries()
+            private Dictionary<string, string> GetFlights()
             {
+                // Instantiates our Firebase object
+                client = new FireSharp.FirebaseClient(ifc);
+                var info = client.Get(@"airlines/Delta/flights");
+                Dictionary<string, string> get = info.ResultAs<Dictionary<string, string>>();
+                return get;
+                /*
                 return new Dictionary<string, string>(CultureInfo.GetCultures(CultureTypes.AllCultures & ~CultureTypes.NeutralCultures)
                     .Distinct(new FuncEqualityComparer<CultureInfo>((info, cultureInfo) => info.LCID == cultureInfo.LCID))
                     .Select(ci => new RegionInfo(ci.LCID))
                     .Distinct(new FuncEqualityComparer<RegionInfo>((ri1, ri2) => ri1.TwoLetterISORegionName == ri2.TwoLetterISORegionName))
                     .ToDictionary(ri => ri.TwoLetterISORegionName, ri => ri.DisplayName)
                 );
+                */
             }
 
             class FuncEqualityComparer<T> : IEqualityComparer<T>
