@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              xmlns:wp="clr-namespace:Vapolia.WheelPickerForms;assembly=Vapolia.WheelPickerForms"
+            
+             x:Class="PDFencryption.Views.FlightSelectorPage">
+    <ContentPage.Content>
+        <StackLayout Margin="20" Spacing="10">
+
+            <BoxView BackgroundColor="LightGray" HeightRequest="1" />
+            <Label Text="Select Flight Below" HorizontalOptions="Center" TextColor="DimGray" />
+           
+            <BoxView BackgroundColor="LightGray" HeightRequest="1" />
+
+            <!-- <Label Text="{Binding PickerModel.SelectedItemsIndex,StringFormat='Selection: \'{0}\''}" /> -->
+
+            <wp:WheelPicker 
+            ItemsSourceSimple="{Binding PickerModel.ItemsSource}" 
+            Command="{Binding PickerModel.ItemSelectedCommand}"
+            SelectedItemsIndex="{Binding PickerModel.SelectedItemsIndex}"
+            HorizontalOptions="Fill"
+            ItemTextFont="Medium"
+            ItemTextSelectedColor="CornflowerBlue"
+            SelectionLinesColor="LightBlue">
+                <!-- 
+            ItemTextSelectedColor: android only. Ios uses the ItemTextColor.
+            SelectionLinesColor: android only. Ios does not allow changing this color directly.
+            -->
+                <wp:WheelPicker.ItemTextColor>
+                    <OnPlatform x:TypeArguments="Color">
+                        <On Platform="iOS" Value="Blue"/>
+                        <On Platform="Android" Value="LightBlue"/>
+                    </OnPlatform>
+                </wp:WheelPicker.ItemTextColor>
+                <wp:WheelDefinition Width="*" HorizontalOptions="Center" Alignment="Center" RowHeight="30" />
+            </wp:WheelPicker>
+
+          
+            <StackLayout Orientation="Horizontal">
+                
+                <Button Text="Scan Boarding Pass" Command="{Binding SelectItemByIndexCommand}"
+                    CommandParameter="{Binding Text,Source={x:Reference EntryValue}}" />
+            </StackLayout>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
