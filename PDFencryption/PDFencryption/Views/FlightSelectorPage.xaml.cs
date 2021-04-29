@@ -78,8 +78,8 @@ namespace PDFencryption.Views
                 var flights = GetFlights();
                 ItemsSource = flights.Values.OrderBy(c => c).ToList();
 
-                //if (flights.TryGetValue(RegionInfo.CurrentRegion.TwoLetterISORegionName, out var currentFlight))
-                SelectedFlight = flights[0];
+                if (flights.TryGetValue(1, out var currentFlight))
+                SelectedFlight = currentFlight;
 
                 ItemSelectedCommand = new Command<(int, int, IList<int>)>(tuple =>
                 {
@@ -94,9 +94,6 @@ namespace PDFencryption.Views
 
             private Dictionary<string, string> GetFlights()
             {
-
-
-
                 // Configures the app with our database
                 IFirebaseConfig ifc = new FirebaseConfig()
                 {
