@@ -73,13 +73,13 @@ namespace PDFencryption.Views
                 }
             }
 
-          /*  public FlightPickerModel()
+          public FlightPickerModel()
             {
                 var flights = GetFlights();
                 ItemsSource = flights.Values.OrderBy(c => c).ToList();
 
-                if (flights.TryGetValue(RegionInfo.CurrentRegion.TwoLetterISORegionName, out var currentFlight))
-                    SelectedFlight = currentFlight;
+                //if (flights.TryGetValue(RegionInfo.CurrentRegion.TwoLetterISORegionName, out var currentFlight))
+                SelectedFlight = flights[0];
 
                 ItemSelectedCommand = new Command<(int, int, IList<int>)>(tuple =>
                 {
@@ -87,7 +87,6 @@ namespace PDFencryption.Views
                     OnPropertyChanged(nameof(SelectedFlight));
                 });
             }
-          */
             protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
             {
                 PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
