@@ -38,8 +38,8 @@
           
             <StackLayout Orientation="Horizontal">
                 
-                <Button Text="Scan Boarding Pass" Command="{Binding SelectItemByIndexCommand}"
-                    CommandParameter="{Binding Text,Source={x:Reference EntryValue}}" />
+                <Button Text="Scan Boarding Pass" 
+                     />
             </StackLayout>
 
         </StackLayout>

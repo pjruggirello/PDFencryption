@@ -93,6 +93,9 @@ namespace PDFencryption.Views
 
             private Dictionary<string, string> GetFlights()
             {
+
+
+
                 // Configures the app with our database
                 IFirebaseConfig ifc = new FirebaseConfig()
                 {
