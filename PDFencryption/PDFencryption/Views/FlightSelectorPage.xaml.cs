@@ -78,7 +78,7 @@ namespace PDFencryption.Views
                 var flights = GetFlights();
                 ItemsSource = flights.Values.OrderBy(c => c).ToList();
 
-                SelectedFlight = flights.dic.Keys.First();
+                SelectedFlight = flights.Keys.First();
 
                 ItemSelectedCommand = new Command<(int, int, IList<int>)>(tuple =>
                 {
