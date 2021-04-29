@@ -28,24 +28,16 @@ namespace PDFencryption.Views
         public FlightSelectorPage()
         {
             InitializeComponent();
-            BindingContext = new CountryPickerPageModel();
+            BindingContext = new FlightPickerPageModel();
         }
 
-        // Configures the app with our database
-        IFirebaseConfig ifc = new FirebaseConfig()
+        
+
+
+
+        internal class FlightPickerPageModel
         {
-            AuthSecret= "wpKeQkSg3RSCmvasQtXLCQohsyYDl1wdU7nYsNjg",
-            BasePath= "https://sd-barcode-security.firebaseio.com/"
-        };
-
-        // Instantiates our Firebase
-        IFirebaseClient client;
-
-
-
-        internal class CountryPickerPageModel
-        {
-            public CountryPickerModel PickerModel { get; } = new CountryPickerModel();
+            public FlightPickerModel PickerModel { get; } = new FlightPickerModel();
 
             public ICommand SelectItemByIndexCommand => new Command<string>(sIndex =>
             {
@@ -56,7 +48,7 @@ namespace PDFencryption.Views
             });
         }
 
-        public class CountryPickerModel : INotifyPropertyChanged
+        public class FlightPickerModel : INotifyPropertyChanged
         {
             public event PropertyChangedEventHandler PropertyChanged;
             private IList<int> selectedItemsIndex;
@@ -70,7 +62,7 @@ namespace PDFencryption.Views
                 set { selectedItemsIndex = value; OnPropertyChanged(); }
             }
 
-            public string SelectedCountry
+            public string SelectedFlight
             {
                 get => selectedItemsIndex[0] >= 0 ? (string)ItemsSource[selectedItemsIndex[0]] : null;
                 set
@@ -81,21 +73,21 @@ namespace PDFencryption.Views
                 }
             }
 
-            public FlightPickerModel()
+          /*  public FlightPickerModel()
             {
-                var countries = GetCountries();
-                ItemsSource = countries.Values.OrderBy(c => c).ToList();
+                var flights = GetFlights();
+                ItemsSource = flights.Values.OrderBy(c => c).ToList();
 
-                if (countries.TryGetValue(RegionInfo.CurrentRegion.TwoLetterISORegionName, out var currentCountry))
-                    SelectedCountry = currentCountry;
+                if (flights.TryGetValue(RegionInfo.CurrentRegion.TwoLetterISORegionName, out var currentFlight))
+                    SelectedFlight = currentFlight;
 
                 ItemSelectedCommand = new Command<(int, int, IList<int>)>(tuple =>
                 {
                     var (selectedWheelIndex, selectedItemIndex, selectedItemsIndexes) = tuple;
-                    OnPropertyChanged(nameof(SelectedCountry));
+                    OnPropertyChanged(nameof(SelectedFlight));
                 });
             }
-
+          */
             protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
             {
                 PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
@@ -103,6 +95,20 @@ namespace PDFencryption.Views
 
             private Dictionary<string, string> GetFlights()
             {
+
+
+
+                // Configures the app with our database
+                IFirebaseConfig ifc = new FirebaseConfig()
+                {
+                    AuthSecret = "wpKeQkSg3RSCmvasQtXLCQohsyYDl1wdU7nYsNjg",
+                    BasePath = "https://sd-barcode-security.firebaseio.com/"
+                };
+
+                // Instantiates our Firebase
+                IFirebaseClient client;
+
+
                 // Instantiates our Firebase object
                 client = new FireSharp.FirebaseClient(ifc);
                 var info = client.Get(@"airlines/Delta/flights");
