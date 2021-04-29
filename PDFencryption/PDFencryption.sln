@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDFencryption.Android", "PD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDFencryption.iOS", "PDFencryption.iOS\PDFencryption.iOS.csproj", "{44BE3F63-499E-4594-A437-96C56C48E6FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDFencryption", "PDFencryption\PDFencryption.csproj", "{05C679B4-DA9A-4A07-AAC4-37341C1A730D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PDFencryption", "PDFencryption\PDFencryption.csproj", "{05C679B4-DA9A-4A07-AAC4-37341C1A730D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

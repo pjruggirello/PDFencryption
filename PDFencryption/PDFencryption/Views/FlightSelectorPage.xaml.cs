@@ -1,24 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System;
-using System.Collections.Generic;
+using FireSharp.Config;
+using FireSharp.Interfaces;
+using PDFencryption.Models;
 using System.ComponentModel;
 using System.Globalization;
-using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Windows.Input;
 using Vapolia.WheelPickerForms;
 using Xamarin.Forms;
-using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using Firebase.Database;
 using Firebase.Database.Query;
-using FireSharp.Response;
-using FireSharp.Config;
-using FireSharp.Interfaces;
+
 
 namespace PDFencryption.Views
 {
@@ -31,7 +26,7 @@ namespace PDFencryption.Views
             BindingContext = new FlightPickerPageModel();
         }
 
-        
+
 
 
 
@@ -73,7 +68,7 @@ namespace PDFencryption.Views
                 }
             }
 
-          public FlightPickerModel()
+            public FlightPickerModel()
             {
                 var flights = GetFlights();
                 ItemsSource = flights.Values.OrderBy(c => c).ToList();
@@ -150,9 +145,17 @@ namespace PDFencryption.Views
             }
 
 
-
+         
 
         }
+
+                  async void Scan_Barcode(object sender, EventArgs e)
+                  {
+                                await Navigation.PushAsync(new ScanScreenPage()); 
+
+
+
+                  } 
 
     }
 

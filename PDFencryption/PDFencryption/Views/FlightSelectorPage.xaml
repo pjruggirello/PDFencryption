@@ -37,8 +37,16 @@
 
           
             <StackLayout Orientation="Horizontal">
-                
-                <Button Text="Scan Boarding Pass" 
+
+                <Button Grid.Row="1"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                WidthRequest="300"
+                x:Name="Btn_Scan" 
+                Text="Scan Boarding Pass" 
+                Clicked="Scan_Barcode" 
+                TextColor="Black" 
+                BackgroundColor="#8bcbfe" 
                      />
             </StackLayout>
 
