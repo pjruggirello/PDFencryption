@@ -142,6 +142,11 @@ namespace PDFencryption.Views
                 });
             }
 
+            public string getSelected()
+            {
+                return SelectedFlight;
+            }
+
 
 
 
@@ -183,7 +188,8 @@ namespace PDFencryption.Views
 
                   async void Scan_Barcode(object sender, EventArgs e)
                   {
-                                await Navigation.PushAsync(new ScanScreenPage(FlightPickerModel.SelectedFlight)); 
+
+                                await Navigation.PushAsync(new ScanScreenPage(FlighFlightPickerModel.SelectedFlight)); 
 
 
 
