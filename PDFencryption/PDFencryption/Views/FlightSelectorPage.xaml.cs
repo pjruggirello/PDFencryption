@@ -89,7 +89,7 @@ namespace PDFencryption.Views
                 PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
             }
 
-            private Flightkey[] GetFlights()
+            private String[] GetFlights()
             {
 
 
@@ -108,7 +108,7 @@ namespace PDFencryption.Views
                 // Instantiates our Firebase object
                 client = new FireSharp.FirebaseClient(ifc);
                 var info = client.Get(@"airlines/Delta/flightsArr");
-                Flightkey[] get = info.ResultAs<Flightkey[]>(); 
+                List<String> get = info.ResultAs<List<String>>(); 
                 //Flights get = info.ResultAs<Flights>();
 
                 return get;
@@ -129,9 +129,9 @@ namespace PDFencryption.Views
             public FlightPickerModel()
             {
                 var flights = GetFlights();
-                foreach(Flightkey f in flights)
+                foreach(String f in flights)
                 {
-                    ItemsSource.Add(f.flightNumber);
+                    ItemsSource.Add(f);
                 }
                 //ItemsSource = flights.Values.OrderBy(c => c).ToList();
 
