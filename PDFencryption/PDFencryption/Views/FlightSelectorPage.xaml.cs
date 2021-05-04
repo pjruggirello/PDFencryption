@@ -21,6 +21,7 @@ namespace PDFencryption.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class FlightSelectorPage : ContentPage
     {
+        public string flight;
         public FlightSelectorPage()
         {
             InitializeComponent();
@@ -139,12 +140,8 @@ namespace PDFencryption.Views
                 {
                     var (selectedWheelIndex, selectedItemIndex, selectedItemsIndexes) = tuple;
                     OnPropertyChanged(nameof(SelectedFlight));
+                    flight = SelectedFlight;
                 });
-            }
-
-            public string getSelected()
-            {
-                return SelectedFlight;
             }
 
 
