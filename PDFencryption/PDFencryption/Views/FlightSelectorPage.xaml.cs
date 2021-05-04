@@ -89,7 +89,7 @@ namespace PDFencryption.Views
                 PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
             }
 
-            private String[] GetFlights()
+            private List<String> GetFlights()
             {
 
 
@@ -129,14 +129,11 @@ namespace PDFencryption.Views
             public FlightPickerModel()
             {
                 var flights = GetFlights();
-                foreach(String f in flights)
-                {
-                    ItemsSource.Add(f);
-                }
+               
                 //ItemsSource = flights.Values.OrderBy(c => c).ToList();
 
-                //ItemsSource = flights.Keys.ToList();
-                SelectedFlight = flights.First().key;
+                ItemsSource = flights;
+                SelectedFlight = flights.First();
 
                 ItemSelectedCommand = new Command<(int, int, IList<int>)>(tuple =>
                 {
@@ -179,13 +176,14 @@ namespace PDFencryption.Views
             }
 
 
-         
+
+
 
         }
 
                   async void Scan_Barcode(object sender, EventArgs e)
                   {
-                                await Navigation.PushAsync(new ScanScreenPage()); 
+                                await Navigation.PushAsync(new ScanScreenPage(FlightPickerModel.SelectedFlight)); 
 
 
 
