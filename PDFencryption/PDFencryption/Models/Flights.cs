@@ -11,9 +11,9 @@ namespace PDFencryption.Models
 
 { 
     // Defines our Flightkey object in order to communicate with the database
-    class Flight
+    class Flights
     {
-        public string key  { get; set; }
-        public string value { get; set; }
+        public Dictionary<string, Flightkey> flights { get; set; }
+       
     }
 }

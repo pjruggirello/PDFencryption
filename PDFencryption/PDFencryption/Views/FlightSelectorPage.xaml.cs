@@ -13,6 +13,7 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using Firebase.Database;
 using Firebase.Database.Query;
+using System.IO;
 
 
 namespace PDFencryption.Views
@@ -24,6 +25,8 @@ namespace PDFencryption.Views
         {
             InitializeComponent();
             BindingContext = new FlightPickerPageModel();
+
+
         }
 
 
@@ -68,9 +71,9 @@ namespace PDFencryption.Views
                 }
             }
 
-            public FlightPickerModel()
+           /* public FlightPickerModel()
             {
-                var flights = GetFlights();
+                var flights = GetFlights().get();
                 ItemsSource = flights.Values.OrderBy(c => c).ToList();
 
                 SelectedFlight = flights.Keys.First();
@@ -80,13 +83,13 @@ namespace PDFencryption.Views
                     var (selectedWheelIndex, selectedItemIndex, selectedItemsIndexes) = tuple;
                     OnPropertyChanged(nameof(SelectedFlight));
                 });
-            }
+            } */
             protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
             {
                 PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
             }
 
-            private Dictionary<string, string> GetFlights()
+            private Flightkey[] GetFlights()
             {
 
 
@@ -104,13 +107,12 @@ namespace PDFencryption.Views
 
                 // Instantiates our Firebase object
                 client = new FireSharp.FirebaseClient(ifc);
-                var info = client.Get(@"airlines/Delta/flights");
+                var info = client.Get(@"airlines/Delta/flightsArr");
+                Flightkey[] get = info.ResultAs<Flightkey[]>(); 
+                //Flights get = info.ResultAs<Flights>();
 
-                List<Flights> get = new List<Flights>();
-                foreach(var fl in info){
-                    get.Add(fl.ResultAs<Flights>());
-                }
                 return get;
+
                 /*
                 return new Dictionary<string, string>(CultureInfo.GetCultures(CultureTypes.AllCultures & ~CultureTypes.NeutralCultures)
                     .Distinct(new FuncEqualityComparer<CultureInfo>((info, cultureInfo) => info.LCID == cultureInfo.LCID))
@@ -120,6 +122,34 @@ namespace PDFencryption.Views
                 );
                 */
             }
+
+
+
+
+            public FlightPickerModel()
+            {
+                var flights = GetFlights();
+                foreach(Flightkey f in flights)
+                {
+                    ItemsSource.Add(f.flightNumber);
+                }
+                //ItemsSource = flights.Values.OrderBy(c => c).ToList();
+
+                //ItemsSource = flights.Keys.ToList();
+                SelectedFlight = flights.First().key;
+
+                ItemSelectedCommand = new Command<(int, int, IList<int>)>(tuple =>
+                {
+                    var (selectedWheelIndex, selectedItemIndex, selectedItemsIndexes) = tuple;
+                    OnPropertyChanged(nameof(SelectedFlight));
+                });
+            }
+
+
+
+
+
+
 
             class FuncEqualityComparer<T> : IEqualityComparer<T>
             {
