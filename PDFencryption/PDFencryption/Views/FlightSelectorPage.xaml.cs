@@ -30,7 +30,8 @@ namespace PDFencryption.Views
 
         public string CurrentFlight()
         {
-            return ((FlightPickerPageModel)BindingContext).SelectedFlight;
+            return ((FlightPickerPageModel)BindingContext)PickerModel.SelectedFlight;
+            //return ((FlightPickerModel)((FlightPickerPageModel)BindingContext)PickerModel).SelectedFlight;
         }
 
 
