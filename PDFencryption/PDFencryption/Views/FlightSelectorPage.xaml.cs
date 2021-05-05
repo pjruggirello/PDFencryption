@@ -28,6 +28,12 @@ namespace PDFencryption.Views
 
         }
 
+        public string CurrentFlight()
+        {
+            return ((FlightPickerModel)BindingContext).SelectedFlight;
+        }
+
+
 
 
 
@@ -180,8 +186,8 @@ namespace PDFencryption.Views
 
         async void Scan_Barcode(object sender, EventArgs e)
         {
-
-            await Navigation.PushAsync(new ScanScreenPage(/*WE NEED SelectedFlight Here*/));
+            string selected = CurrentFlight();
+            await Navigation.PushAsync(new ScanScreenPage(selected));
 
 
 

@@ -57,7 +57,7 @@ namespace PDFencryption.Views
         {
            
 
-            await Navigation.PushAsync(new ScanScreenPage());
+            await Navigation.PushAsync(new FlightSelectorPage());
         }
         //Decryption Method
         public static string DecryptStringFromBytes_Aes(byte[] cipherText, byte[] Key)
