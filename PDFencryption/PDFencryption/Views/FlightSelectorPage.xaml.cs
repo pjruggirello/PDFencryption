@@ -20,9 +20,7 @@ namespace PDFencryption.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class FlightSelectorPage : ContentPage
-    {
-        public string flight;
-        public FlightSelectorPage()
+    {        public FlightSelectorPage()
         {
             InitializeComponent();
             BindingContext = new FlightPickerPageModel();
@@ -140,7 +138,6 @@ namespace PDFencryption.Views
                 {
                     var (selectedWheelIndex, selectedItemIndex, selectedItemsIndexes) = tuple;
                     OnPropertyChanged(nameof(SelectedFlight));
-                    flight = SelectedFlight;
                 });
             }
 
@@ -178,19 +175,18 @@ namespace PDFencryption.Views
             }
 
 
+                 async void Scan_Barcode(object sender, EventArgs e)
+                {
+
+                                await Navigation.PushAsync(new ScanScreenPage(/*WE NEED SelectedFlight Here*/)); 
 
 
+
+                }
 
         }
 
-                  async void Scan_Barcode(object sender, EventArgs e)
-                  {
-
-                                await Navigation.PushAsync(new ScanScreenPage(FlighFlightPickerModel.SelectedFlight)); 
-
-
-
-                  } 
+                   
 
     }
 

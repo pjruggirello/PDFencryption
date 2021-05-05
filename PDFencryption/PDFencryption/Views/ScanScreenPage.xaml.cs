@@ -27,9 +27,9 @@ namespace PDFencryption.Views
     {
         public string SelectedFlight;
         // Creates the page
-        public ScanScreenPage(string SelectedFlight)
+        public ScanScreenPage(/*string SelectedFlight*/)
         {
-            this.SelectedFlight = SelectedFlight;
+            //this.SelectedFlight = SelectedFlight;
             InitializeComponent();
         }
 
@@ -105,7 +105,7 @@ namespace PDFencryption.Views
 
                    // Accesses our datbase in order to recieve the key to decrypt the data
                    //var info = client.Get(@"flightKeys/DL263");
-                   var info = client.Get(@"airlines/Delta/flights/" + SelectedFlight);
+                   var info = client.Get(@"airlines/Delta/flights/" /*+ SelectedFlight*/);
                    Flightkey get = info.ResultAs<Flightkey>();
                   
                    // Once the data has been stored in the result variable and the app has accessed the firebase, the app automatically redirects to the results page where the data is presented
