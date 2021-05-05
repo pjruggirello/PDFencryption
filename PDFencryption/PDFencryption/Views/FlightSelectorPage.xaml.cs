@@ -175,18 +175,19 @@ namespace PDFencryption.Views
             }
 
 
-                 async void Scan_Barcode(object sender, EventArgs e)
-                {
+                
+        }
 
-                                await Navigation.PushAsync(new ScanScreenPage(/*WE NEED SelectedFlight Here*/)); 
+        async void Scan_Barcode(object sender, EventArgs e)
+        {
+
+            await Navigation.PushAsync(new ScanScreenPage(/*WE NEED SelectedFlight Here*/));
 
 
-
-                }
 
         }
 
-                   
+
 
     }
 
